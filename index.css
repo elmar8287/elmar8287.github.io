@@ -1,4 +1,6 @@
 /* Support older browsers */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 article,
 aside,
 details,
@@ -417,13 +419,15 @@ form {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   top: 0;
   left: 0;
-  background-color: rgba(96, 112, 255, .95);
+  background-color: #6070ff;
   overflow-x: hidden;
   transition: 0.5s;
-  z-index: 4;
+  opacity: 95%;
+  mix-blend-mode: multiply;
+  
 }
 
 .overlay-content {
@@ -433,10 +437,6 @@ form {
   text-align: left;
   margin-top: 30px;
   margin-left: 2em;
-  font-family: Poppins;
-  color: #FFFFFF;
-  
-  
 }
 
 .overlay a {
@@ -446,6 +446,11 @@ form {
   color: #818181;
   display: block;
   transition: 0.3s;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .overlay a:hover, .overlay a:focus {
