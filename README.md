@@ -2,7 +2,7 @@
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> We add mobil menu using JS
+> We add mobile menu using JS
 
 ![Screen Shot](./desktop-version.PNG)
 
@@ -16,6 +16,10 @@
 👤 **Elmar Abdulkarimov**
 
 - GitHub: [@elmar8287](https://github.com/elmar8287)
+
+👤 **Sylvestre**
+
+- GitHub: [@pasytchangwa ](https://github.com/pasytchangwa)
 
 
 ## Live demo
