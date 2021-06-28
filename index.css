@@ -440,7 +440,7 @@ form {
   top: 25%;
   width: 100%;
   text-align: left;
-  margin-top: -100px;
+  margin-top: -30px;
   margin-left: 2em;
 }
 
@@ -468,7 +468,6 @@ form {
   right: 45px;
   font-size: 60px;
 }
-
 
 /* for desktop */
 @media screen and (min-width: 992px) {
