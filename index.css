@@ -451,7 +451,8 @@ form {
   font-family: 'Poppins', sans-serif;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
@@ -581,10 +582,13 @@ form {
   .tags {
     margin-bottom: 32px;
   }
+
   /* for mobil menu smal screens */
+
   .overlay a {
     font-size: 20px;
   }
+
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
