@@ -419,15 +419,13 @@ form {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 3;
+  z-index: 15;
   top: 0;
   left: 0;
-  margin-top: 5px;
   background-color: rgba(96, 112, 255, 1);
   overflow-x: hidden;
   transition: 0.5s;
   backdrop-filter: blur(7px);
-  overflow-x: hidden;
   opacity: 95%;
   mix-blend-mode: multiply;
 }
@@ -584,11 +582,13 @@ form {
     margin-bottom: 32px;
   }
   /* for mobil menu smal screens */
-  .overlay a {font-size: 20px}
+  .overlay a {
+    font-size: 20px;
+  }
+
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
     right: 35px;
   }
 }
-
