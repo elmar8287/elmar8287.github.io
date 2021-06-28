@@ -420,10 +420,11 @@ form {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(96, 112, 255, .95);
+  background-color: rgba(96, 112, 255, .80);
   overflow-x: hidden;
   transition: 0.5s;
   z-index: 4;
+  backdrop-filter: blur(5px);
 }
 
 .overlay-content {
