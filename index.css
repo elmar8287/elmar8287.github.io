@@ -141,7 +141,7 @@ p {
   height: 48px;
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 2;
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -412,6 +412,54 @@ form {
   flex-grow: 1;
 }
 
+/* for navbar */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(96, 112, 255, .95);
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 4;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 2em;
+  font-family: Poppins;
+  color: #FFFFFF;
+  
+  
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
 /* for desktop */
 @media screen and (min-width: 992px) {
   .header-1 {
@@ -531,4 +579,12 @@ form {
   .tags {
     margin-bottom: 32px;
   }
+  /* for mobil menu smal screens */
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }
+

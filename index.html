@@ -25,10 +25,10 @@
 <body>
   <div class="headline-container">
     <header class="app-bar">
-      <a href="https://elmar8287.github.io/portfolio.github.io/" class="logo"><img src="images/logo.svg"
+      <a href="https://elmar8287.github.io/" class="logo"><img src="images/logo.svg"
           alt="Home Logo" /></a>
       <nav>
-        <a href="#menu" class="menu-button"><img src="images/icons/menu.svg" alt="Menu" width="24" height="24" /></a>
+        <span class="menu-button" onclick="openNav()"><img src="images/icons/menu.svg" alt="Menu" width="24" height="24" /></span>
         <ul class="menu-items">
           <li>
             <a href="#portfolio" class="nav-item body-3 bolder color-n600">
@@ -48,7 +48,9 @@
         </ul>
       </nav>
     </header>
+    
     <section class="headline">
+      
       <h1 class="header-1 color-n800 mb-12">
         I’m Elmar,<br />Glad to see you!
       </h1>
@@ -288,6 +290,17 @@
     </section>
   </footer>
   <!-- END footer section -->
-</body>
+  <!-- Add JS file -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>  
+  <script src="./index.js"></script>
+ </body>
 
 </html>
