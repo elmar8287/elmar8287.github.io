@@ -19,7 +19,7 @@
 
 
 ## Live demo
-You can visit live version via [link](https://elmar8287.github.io/elmar.github.io/)
+You can visit live version via [link](https://elmar8287.github.io/)
 
 
 ## 🤝 Contributing
