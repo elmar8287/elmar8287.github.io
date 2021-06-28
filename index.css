@@ -426,11 +426,8 @@ form {
   background-color: rgba(96, 112, 255, 1);
   overflow-x: hidden;
   transition: 0.5s;
-  z-index: 4;
   backdrop-filter: blur(7px);
-  background-color: #6070ff;
   overflow-x: hidden;
-  transition: 0.5s;
   opacity: 95%;
   mix-blend-mode: multiply;
 }
@@ -447,8 +444,6 @@ form {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
-  color: #818181;
   display: block;
   transition: 0.3s;
   color: #fff;
@@ -468,7 +463,6 @@ form {
   right: 45px;
   font-size: 60px;
 }
-
 
 /* for desktop */
 @media screen and (min-width: 992px) {
@@ -592,9 +586,9 @@ form {
   /* for mobil menu smal screens */
   .overlay a {font-size: 20px}
   .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
 
