@@ -62,9 +62,82 @@ var cardObjects = [
   }
 ];
 
-for (var i=0; i<cardObjects.length; i++) {
-  console.log(cardObjects[i]);
-}
+// Modal creation dynamic
+
+let div1 = document.createElement("div");
+div1.className = "modal";
+div1.id = "myModal";
+
+let div2 = document.createElement("div");
+div2.className = "modal-content modal-card";
+
+let div3 = document.createElement("div");
+div3.id = "modal-header";
+let h2 = document.createElement("h2");
+h2.id = "modal-title";
+h2.innerHTML = "ffff";
+div3.appendChild(h2);
+let button1 = document.createElement("span");
+button1.setAttribute("class", "close");
+button1.innerHTML = "&times;";
+div3.appendChild(button1);
+div2.appendChild(div3);
+
+let div4 = document.createElement("div");
+div4.className = "modal-float2";
+
+let p = document.createElement("p");
+p.textContent =
+  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent";
+p.className = "modal-desc";
+div4.appendChild(p);
+
+let div5 = document.createElement("div");
+div5.className = "modal-float";
+
+let div6 = document.createElement("div");
+div6.id = "modal-foot";
+let button2 = document.createElement("button");
+button2.setAttribute("type", "button");
+button2.className = "btn4 btn";
+button2.textContent = "See live";
+// let livesee = document.querySelector(".modallive");
+// livesee.style.display = "block";
+// livesee.firstElementChild.style.width = "25px";
+// livesee.firstElementChild.style.height = "25px";
+// livesee.style.heigth = "8px";
+// livesee.style.marginLeft = "5px";
+// button2.appendChild(livesee);
+div6.appendChild(button2);
+
+let button3 = document.createElement("button");
+button3.setAttribute("type", "button");
+button3.className = "btn4 btn";
+button3.textContent = "See Source";
+// let git = document.querySelector(".modalgit");
+// git.style.display = "block";
+// git.style.marginLeft = "5px";
+// button3.appendChild(git);
+div6.appendChild(button3);
+
+div5.appendChild(div6);
+
+div4.appendChild(div5);
+div2.appendChild(div4);
+
+let div7 = document.createElement("div");
+div7.id = "modal-line";
+div1.appendChild(div2);
+div1.appendChild(div7);
+
+let body = document.getElementById("body");
+body.appendChild(div1);
+console.log(body);
+
+
+// for (var i=0; i<cardObjects.length; i++) {
+//   console.log(cardObjects[i]);
+// }
 
 
 
