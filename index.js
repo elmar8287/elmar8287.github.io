@@ -24,7 +24,7 @@ console.log(cardTech);
 console.log(cardBtn);
 console.log(cards);
 
-var cardObjects = [
+const cardObjects = [
   card1 = {
     title: cardTitle[0].innerHTML,
     info: cardInfo[0],
@@ -124,17 +124,17 @@ div1.appendChild(div2);
 div1.appendChild(div7);
 var body = document.getElementById("body");
 body.appendChild(div1);
-console.log(body);
 
-for(var i = 0; i < cardObjects.length; i++) {
+for(let i = 0; i < cardObjects.length; i++) {
   cardObjects[i].cardbutton = cardBtn[i];
   if(cardObjects[i].cardbutton.classList.contains('myBtn1')) {
+    cardObjects[i]=card1;
     cardObjects[i].cardbutton = cardBtn[0];
     var btn = cardObjects[i].cardbutton;
     btn.onclick = function () {
     var modal = document.getElementById("myModal");
     modal.style.display = "block";
-    h2.innerHTML = cardObjects[i].title;
+    h2.innerHTML = cardObjects[i].title
     div2.insertBefore(cardObjects[i].Image, div4);
     div2.insertBefore(cardObjects[i].info, cardObjects[i].Image);
     div5.insertBefore(cardObjects[i].technologies, div6);
