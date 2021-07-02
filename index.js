@@ -204,3 +204,14 @@ form.addEventListener('submit', (x) => {
     errorMessage.style.backgroundColor = "yellow";
   }
 });
+
+//Storage 
+
+function saveFormDataToLocalStorage(name, email, message) {
+  const contactInfo = {
+    name: name.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
+}
