@@ -200,7 +200,7 @@ form.addEventListener('submit', (x) => {
   if (email.value.toLowerCase() !== email.value) {
     x.preventDefault();
     errorMessage.textContent = 'Use only lowercase letters for your e-mail!';
-    errorMessage.style.color = "red";
-    errorMessage.style.backgroundColor = "yellow";
+    errorMessage.style.color = 'white';
+    errorMessage.style.fontWeight = 'bold';
   }
 });
