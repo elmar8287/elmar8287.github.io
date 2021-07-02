@@ -191,11 +191,13 @@ window.onclick = function (event) {
 }
 };
 
+// Validation of form
+
 const form = document.getElementById('myForm');
 const email = document.getElementById('user_email');
 const errorMessage = document.getElementById('emsg');
 form.addEventListener('submit', (x) => {
-  if (email.value.toLowerCase() = email.value) {
+  if (email.value.toLowerCase() !== email.value) {
     x.preventDefault();
     errorMessage.textContent = 'Use only lowercase letters for your e-mail!';
   }
