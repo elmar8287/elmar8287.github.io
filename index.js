@@ -190,3 +190,13 @@ window.onclick = function (event) {
  modal.style.display = "none";
 }
 };
+
+const form = document.getElementById('myForm');
+const email = document.getElementById('user_email');
+const errorMessage = document.getElementById('emsg');
+form.addEventListener('submit', (x) => {
+  if (email.value.toLowerCase() = email.value) {
+    x.preventDefault();
+    errorMessage.textContent = 'Use only lowercase letters for your e-mail!';
+  }
+});
