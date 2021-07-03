@@ -524,7 +524,7 @@ form {
   color: blue;
 }
 
-#btnLive {
+.btnLive {
   width: 50%;
   height: 48px;
   text-align: center;
@@ -540,7 +540,7 @@ form {
   border-color: #396df2;
 }
 
-#btnSource {
+.btnSource {
   width: 50%;
   height: 48px;
   text-align: center;
