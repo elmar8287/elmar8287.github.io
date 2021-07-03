@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8" />
   <!-- START Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133234354-4"></script>
   <script>
@@ -15,292 +16,380 @@
     gtag('config', 'UA-133234354-4');
   </script>
   <!-- END Google Tag script -->
-  <meta charset="utf-8" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Elmar Abdulkarimov Portfolio</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:regular,bold,500&display=swap" />
   <link rel="stylesheet" href="index.css" />
 </head>
 
-<body id='body'>
-  <div class="headline-container">
-    <header class="app-bar">
-      <a href="https://elmar8287.github.io/" class="logo"><img src="images/logo.svg"
-          alt="Home Logo" /></a>
-      <nav>
-        <span class="menu-button" onclick="openNav()"><img src="images/icons/menu.svg" alt="Menu" width="24" height="24" /></span>
-        <ul class="menu-items">
+<body id ='body'>
+  <div class="wrapper">
+    <header>
+      <div class="toolbar">
+        <a href="./index.html" class="logo"
+        ><img src="./image/images-head/logo.png" alt="MyLogo" />
+        </a>
+        <nav class="nav-btn">
+         <div onclick='openNav()'><img src="./image/images-head/union.png" alt="navbarimage" /></div>
+        </nav>
+        <ul class="nav-links">
+           <li><a href="#projects">portfolio</a></li>
+           <li><a href="#about">about</a></li>
+           <li><a href="#contact">contact</a></li>
+         </ul>
+      </div>
+      <div class="headline" id="Portfolio">
+        <h1 class="headline-title">I'm Elmar<br>
+          Glad to see you!</h1>
+        <p class="headline-info">
+          I’m a software developer! I can help you build a product , feature
+          or website. Look through some of my work and experience! If you like
+          what you see and have a project you need coded, don’t hesitate to
+          contact me.
+        </p>
+        <h3><a href="#" class="media-info">LET'S CONNECT</a></h3>
+        <ul class="social-icons">
           <li>
-            <a href="#portfolio" class="nav-item body-3 bolder color-n600">
-              Portfolio
-            </a>
+            <a href="#"
+              ><img src="./image/images-main/twitter.svg" alt="twitter"
+            /></a>
           </li>
           <li>
-            <a href="#about" class="nav-item body-3 bolder color-n600">
-              About
-            </a>
+            <a href="#"
+              ><img src="./image/images-main/linkedin.svg" alt="linkedin"
+            /></a>
           </li>
           <li>
-            <a href="#contact-me" class="nav-item body-3 bolder color-n600">
-              Contact
-            </a>
+            <a href="#"
+              ><img src="./image/images-main/medium.svg" alt="medium"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./image/images-main/github.svg" alt="github"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./image/images-main/angellist.svg" alt="angellist"
+            /></a>
           </li>
         </ul>
-      </nav>
+      </div>
     </header>
-    
-    <section class="headline">
-      
-      <h1 class="header-1 color-n800 mb-12">
-        I’m Elmar,<br />Glad to see you!
-      </h1>
-      <p class="body-2 color-n600 mb-12 drop-shadow">
-        I’m a software developer! I can help you build a product feature or
-        website. Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact
-        me.
-      </p>
-      <a href="#connect" class="link-button body-2 bolder color-b300 mb-12 drop-shadow">
-        LET'S CONNECT
-      </a>
-      <ul class="social-media-icons">
-        <li>
-          <a href="#"><img src="images/icons/twitter.svg" alt="#" class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/icons/linkedin.svg" alt="Elmar's LinkedIn" class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="https://medium.com/@elmar8287"><img src="images/icons/medium.svg" alt="Elmar's Medium Blog"
-              class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/icons/angel-list.svg" alt="Angel List" class="social-icon" /></a>
-        </li>
+    <main>
+      <ul class="card-section" id="projects">
+          <li class="card">
+            <div class="section-img">
+              <img
+                src="./image/images-main/snapshootportfolio.png"
+                alt="myproject"
+              />
+            </div>
+            <div class="card-body">
+              <h2 class="title title3">Tonic</h2>
+              <h2 class="titledisappear">Facebook 360</h2>
+              <ul class="info">
+                <li class="facebookdis">canopy</li>
+                <li class="facebook">facebook</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li class="fullstackdis">back end dev</li>
+                <li class="fullstack">fulll stack dev</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li>2015</li>
+              </ul>
+              <p class="section-info">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups require
+              </p>
+              <ul class="program-btns">
+                <li class="btn-ctn btn-html">html</li>
+                <li class="btn-ctn btn-ruby">ruby on rails</li>
+                <li class="btn-ctn btn-css">css</li>
+                <li class="btn-ctn btn-js">javaScript</li>
+              </ul>
+                <button type="button" class="btn4 btn-desk myBtn myBtn1" data-modal-target1='#modal'>See Project</button>
+              </div>
+              <div class="hand-cursor"><img class="hand-img" src="./image/images-main/hand-cursor.png" alt="hand cursor"></div>
+          </li>
+          <li class="card">
+            <div class="section-img">
+              <img
+                src="./image/images-main/snapshootportfolio2.png"
+                alt="myproject"
+              />
+            </div>
+            <div class="card-body">
+              <h2 class="title title2 title4">multi-Post<br> stories</h2>
+              <h2 class="titledisappear">Uber navigation</h2>
+              <ul class="info">
+                <li class="uberdis">canopy</li>
+                <li class="uber">uber</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li class="leaddevdis">back end dev</li>
+                <li class="leaddev">lead developer</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li class="yeardis">2015</li>
+                <li class="year">2018</li>
+              </ul>
+              <p class="section-info">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="program-btns">
+                <li class="btn-ctn btn-html">html</li>
+                <li class="btn-ctn btn-ruby">ruby on rails</li>
+                <li class="btn-ctn btn-css">css</li>
+                <li class="btn-ctn btn-js">javaScript</li>
+              </ul>
+              <button type="button" class="btn4 myBtn myBtn2" data-modal-target2='#modal'>See Project</button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="section-img">
+              <img class="appear"
+                src="./image/images-main/snapshootportfolio3.png"
+                alt="myproject"
+              />
+              <img class="appear2"
+                src="./image/images-main/snapshootportfolio5.png"
+                alt="myproject"
+              />
+            </div>
+            <div class="card-body">
+              <h2 class="title">tonic</h2>
+              <ul class="info">
+                <li>canopy</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li>back end dev</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li>2015</li>
+              </ul>
+              <p class="section-info">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="program-btns">
+                <li class="btn-ctn btn-html">html</li>
+                <li class="btn-ctn btn-ruby">ruby on rails</li>
+                <li class="btn-ctn btn-css">css</li>
+                <li class="btn-ctn btn-js">javaScript</li>
+              </ul>
+              <button type="button" class="btn4 myBtn myBtn3" data-modal-target3='#modal'>See Project</button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="section-img">
+              <img
+                src="./image/images-main/snapshootportfolio4.png"
+                alt="myproject"
+              />
+            </div>
+            <div class="card-body">
+              <h2 class="title title2">multi-Post<br> stories</h2>
+              <ul class="info">
+                <li class="facebookdis">canopy</li>
+                <li class="facebook">facebook</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li class="fullstackdis">back end dev</li>
+                <li class="fullstack">fulll stack dev</li>
+                <li>
+                  <img src="./image/images-main/Counter.png" alt="counter" />
+                </li>
+                <li>2015</li>
+              </ul>
+              <p class="section-info">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="program-btns">
+                <li class="btn-ctn btn-html">html</li>
+                <li class="btn-ctn btn-ruby">ruby on rails</li>
+                <li class="btn-ctn btn-css">css</li>
+                <li class="btn-ctn btn-js">javaScript</li>
+              </ul>
+              <button type="button" class="btn4 myBtn myBtn4" data-modal-target4='#modal'>See Project</button>
+            </div>
+          </li>
       </ul>
-    </section>
-  </div>
-  <div id="portfolio" class="works">
-    <article class="card">
-      <img src="images/snapshots/tonic.svg" alt="Tonic Snapshot" class="snapshot mb-12" />
-      <div class="card-body">
-        <h2 class="header-3 color-n800 mb-12">Tonic</h2>
-        <div class="frame-2">
-          <span class="caption bolder-2 color-n600">CANOPY</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">Backend Dev</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">2015</span>
+      <section class="about-section" id="about">
+        <div class="about-head">
+          <h2 class="about-title">
+            About<br />
+            Myself
+          </h2>
+          <p class="about-info">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you
+            like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <h3><a href="#" class="media-info">LET'S CONNECT</a></h3>
+          <ul class="social-icons">
+            <li class="social-icon-ctn">
+              <a href="#"
+                ><img src="./image/images-main/github.svg" alt="twitter"
+              /></a>
+            </li>
+            <li class="social-icon-ctn">
+              <a href="#"
+                ><img src="./image/images-main/linkedin.svg" alt="linkedin"
+              /></a>
+            </li>
+            <li class="social-icon-ctn">
+              <a href="#"
+                ><img src="./image/images-main/angellist.svg" alt="medium"
+              /></a>
+            </li>
+            <li class="social-icon-ctn">
+              <a href="#"
+                ><img src="./image/images-main/twitter.svg" alt="github"
+              /></a>
+            </li>
+            <li class="social-icon-ctn">
+              <a href="#"
+                ><img src="./image/images-main/medium.svg" alt="angellist"
+              /></a>
+            </li>
+          </ul>
+          <a href="#" class="btn4">Get my resume</a>
         </div>
-        <p class="body-3 color-n600 mb-12 discrip">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required..
-        </p>
-        <ul class="tags">
-          <li class="tag"><span class="small color-b400">html</span></li>
-          <li class="tag"><span class="small color-b400">css</span></li>
-          <li class="tag">
-            <span class="small color-b400">JavaScript</span>
+        <ul class="skills">
+          <li class="skill-head">
+            <h3 class="skill-title">
+              <span>languages</span>
+              <span class="chevron"
+                ><img src="./image/images-main/arrdwn.png" alt="dropdown"
+              /></span>
+            </h3>
+            <ul class="language-list">
+              <li class="language-list-ctn">
+                <img class="ctn-img" src="./image/images-main/Ellipse1.svg" alt="js" /><a
+                  href="#"
+                  class="language-link"
+                  >JavaScript</a
+                >
+              </li>
+              <li class="language-list-ctn">
+                <img class="ctn-img" src="./image/images-main/Ellipse2.svg" alt="html" /><a
+                  href="#"
+                  class="language-link"
+                  >HTML</a
+                >
+              </li>
+              <li class="language-list-ctn">
+                <img class="ctn-img" src="./image/images-main/Ellipse3.svg" alt="js" /><a
+                  href="#"
+                  class="language-link"
+                  >CSS</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="skill-frameworks">
+            <h3 class="skill-title">
+              <span>Frameworks</span>
+              <span
+                ><img src="./image/images-main/arrfrw.png" alt="forward"
+              /></span>
+            </h3>
+          </li>
+          <li class="skill-skills">
+            <h3 class="skill-title">
+              <span class="skill">Skills</span
+              ><span
+                ><img src="./image/images-main/arrfrw.png" alt="forward"
+              /></span>
+            </h3>
           </li>
         </ul>
-        <div class="action">
-          <button id="myBtn" type="button" class="button cardButton myBtn1">See Project</button>
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <img src="images/snapshots/stories.svg" alt="Tonic Snapshot" class="snapshot mb-12" />
-      <div class="card-body swap">
-        <h2 class="header-3 color-n800 mb-12">Multi-Post Stories</h2>
-        <div class="frame-2">
-          <span class="caption bolder-2 color-n600">FACEBOOK</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">Backend Dev</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">2015</span>
-        </div>
-        <p class="body-3 color-n600 mb-12 discrip" >
-          Experimental content creation feature that allows users to add to an
-          existing story over the course of a day without spamming their
-          friends..
-        </p>
-        <ul class="tags">
-          <li class="tag"><span class="small color-b400">html</span></li>
-          <li class="tag">
-            <span class="small color-b400">Ruby on rails</span>
-          </li>
-          <li class="tag"><span class="small color-b400">css</span></li>
-          <li class="tag">
-            <span class="small color-b400">JavaScript</span>
-          </li>
-        </ul>
-        <div class="action">
-          <button type="button" class="button cardButton myBtn2">See Project</button>
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <img src="images/snapshots/facebook.svg" alt="Tonic Snapshot" class="snapshot mb-12" />
-      <div class="card-body">
-        <h2 class="header-3 color-n800 mb-12">Facebook 360</h2>
-        <div class="frame-2">
-          <span class="caption bolder-2 color-n600">FACEBOOK</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">Full Stack Dev</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">2015</span>
-        </div>
-        <p class="body-3 color-n600 mb-12 discrip">
-          Exploring the future of media in Facebook's first Virtual Reality
-          app; a place to discover and enjoy 360 photos and videos on Gear VR.
-        </p>
-        <ul class="tags">
-          <li class="tag"><span class="small color-b400">html</span></li>
-          <li class="tag">
-            <span class="small color-b400">Ruby on rails</span>
-          </li>
-          <li class="tag"><span class="small color-b400">css</span></li>
-          <li class="tag">
-            <span class="small color-b400">JavaScript</span>
-          </li>
-        </ul>
-        <div class="action">
-          <button type="button" class="button cardButton myBtn3">See Project</button>
-        </div>
-      </div>
-    </article>
-    <article class="card">
-      <img src="images/snapshots/uber.svg" alt="Tonic Snapshot" class="snapshot mb-12" />
-      <div class="card-body swap">
-        <h2 class="header-3 color-n800 mb-12">Uber Navigation</h2>
-        <div class="frame-2">
-          <span class="caption bolder-2 color-n600">UBER</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">Lead Developer</span>
-          <img src="images/icons/dot.svg" alt="Separator" />
-          <span class="caption bolder-2 color-n100">2015</span>
-        </div>
-        <p class="body-3 color-n600 mb-12 discrip">
-          A smart assistant to make driving more safe, efficient, and fun by
-          unlocking your most expensive computer: your car.
-        </p>
-        <ul class="tags">
-          <li class="tag"><span class="small color-b400">html</span></li>
-          <li class="tag">
-            <span class="small color-b400">Ruby on rails</span>
-          </li>
-          <li class="tag"><span class="small color-b400">css</span></li>
-          <li class="tag">
-            <span class="small color-b400">JavaScript</span>
-          </li>
-        </ul>
-        <div class="action">
-          <button type="button" class="button cardButton myBtn4">See Project</button>
-        </div>
-      </div>
-    </article>
-  </div>
-  <section id="about" class="about-container">
-    <div class="about">
-      <h2 class="header-2 color-n800 mb-12">About<br />Myself</h2>
-      <p class="body-2 color-n600 mb-12">
-        Hello I’m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience! If you
-        like what you see and have a project you need coded, don’t hestiate to
-        contact me.
-      </p>
-      <a href="#connect" class="link-button body-2 bolder color-b300 mb-12">
-        LET'S CONNECT
-      </a>
-      <ul class="social-media-icons mb-12">
-        <li>
-          <a href="https://twitter.com/usbkay"><img src="images/icons/twitter.svg" alt="Elmar's Twitter"
-              class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/icons/linkedin.svg" alt="Elmar's LinkedIn" class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="https://medium.com/@elmar8287"><img src="images/icons/medium.svg" alt="Elmar's Medium Blog"
-              class="social-icon" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="images/icons/angel-list.svg" alt="Angel List" class="social-icon" /></a>
-        </li>
-      </ul>
-      <button type="button" class="button">Get my resume</button>
-    </div>
-    <!-- START Skill list section -->
-    <ul class="skill-list">
-      <li>
-        <a href="#languages" class="list-header link-button color-black flex-text">
-          <h6 class="body-1 bolder flex-text">Languages</h6>
-          <img src="images/icons/chevron-down.svg" alt="Close" />
-        </a>
-        <ul class="p-12 skill-items">
-          <li class="skill-item">
-            <img src="images/icons/js.svg" alt="JavaScript" />
-            <span class="body-3 bolder color-n700 p-16">JavaScript</span>
-          </li>
-          <li class="skill-item">
-            <img src="images/icons/html5.svg" alt="HTML5" />
-            <span class="body-3 bolder color-n700 p-16">HTML</span>
-          </li>
-          <li class="skill-item">
-            <img src="images/icons/css.svg" alt="CSS" />
-            <span class="body-3 bolder color-n700 p-16">CSS</span>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="#frameworks" class="list-header link-button color-black flex-text">
-          <h6 class="body-1 bolder flex-text">Frameworks</h6>
-          <img src="images/icons/chevron-right.svg" alt="Expand" />
-        </a>
-      </li>
-      <li>
-        <a href="#skills" class="list-header link-button color-black flex-text">
-          <h6 class="body-1 bolder flex-text">Skills</h6>
-          <img src="images/icons/chevron-right.svg" alt="Expand" />
-        </a>
-      </li>
-    </ul>
-    <!-- END Skill list section-->
-  </section>
-  <!-- START footer section -->
-  <footer id="contact-me">
-    <section class="contact-me">
-      <h2 class="header-2 align-center color-n0 mb-12">Contact me</h2>
-      <p class="body-4 align-center color-n0 mb-12 instructions">
+      </section>
+    </main>
+    <footer class="footer-section" id="contact">
+      <h3 class="footer-header">Contact me</h3>
+      <p class="footer-info">
         If you have an application you are interested in developing, a feature
         that you need built or a project that needs coding. I’d love to help
         with it
       </p>
-      <form action="https://formspree.io/f/xpzklagg" method="POST" id="myForm">
-        <input type="text" name="user_name" id="user_name" placeholder="Type your name" class="text-field"
-          maxlength="30" required />
-        <input type="email" name="user_email" id="user_email" placeholder="Type your email" class="text-field"
-          required />
-        <textarea name="message" id="message" cols="30" rows="8" placeholder="Write your message" class="text-field"
-          maxlength="500" required></textarea>
-        <div>
-          <span id="emsg"></span>
-          <button type="submit" class="button">Get In Touch</button>
-        </div>
+      <form
+        action="https://formspree.io/f/xpzklagg"
+        class="footer-form"
+        method="POST"
+        id="footer-form"
+      >
+        <ul>
+          <li class="first">
+            <input
+              type="text"
+              name="username"
+              placeholder="Enter your username"
+              maxlength="30"
+              required
+            />
+          </li>
+          <li class="second">
+            <input
+              type="email"
+              name="email"
+              id="email-detail"
+              placeholder="Enter your email"
+              required
+            />
+          </li>
+          <li class="third">
+            <textarea
+              name="comment"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
+          </li>
+        </ul>
+        <p id="invalid"></p>
+        <button id='press' type="submit" class="btn5">Get in touch</button>
       </form>
-    </section>
-  </footer>
-  <!-- END footer section -->
-  <!-- Add JS file -->
+      <div class="footer-line"></div>
+    </footer>
+  </div>
+  <div class="section-img1"><img src="./image/images-head/snapshoot (1).png" alt="image1"></div>
+  <div class="section-img1"><img src="./image/images-head/snapshoot (2).png" alt="image2"></div>
+  <div class="section-img1"><img src="./image/images-head/snapshoot (3).png" alt="">image3</div>
+  <div class="section-img1"><img src="./image/images-head/snapshoot (4).png" alt="image4"></div>
+  <span class="modalgit">
+    <img src="./image/images-main/popupgithub.png" alt="popupgit" class="git">
+  </span>
+  <span class="modallive">
+    <img src="./image/images-main/livesees.PNG" alt="popupgit" class="Live see">
+  </span>
+<!-- Add JS file -->
   <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" onclick='closeNav()'>&times;</a>
     <div class="overlay-content">
-      <a href="#portfolio" onclick="closeNav()">Portfolio</a>
-      <a href="#about" onclick="closeNav()">About</a>
-      <a href="#contact-me" onclick="closeNav()">Contact</a>
+     <a class='port' href="#projects" onclick='closeNav()'>Portfolio</a>
+     <a class='abt' href="#about" onclick="closeNav()">About</a>
+     <a class='cont' href="#contact" onclick="closeNav()">Contact</a>
     </div>
-  </div>  
-  <script src="./index.js"></script>
- </body>
-
+    <div class="footer-line2"></div>
+  </div>
+  <script src="./index.js">
+  </script>
+</body>
 </html>
