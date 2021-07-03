@@ -1,4 +1,4 @@
-# Portfolio: Adding mobile menu
+# Software developer portfolio website
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
