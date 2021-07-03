@@ -1,8 +1,11 @@
-# Portfolio: Adding mobile menu
+# Software developer portfolio website
 
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
-> We add mobile menu using JS
+* We add mobile menu using JS
+* Added validation into contact form with JS
+* Add saving data in local storage for contact form with JS
+* Add popup window for each card, using data dinamicaly, with JS
 
 ![Screen Shot](./desktop-version.PNG)
 
