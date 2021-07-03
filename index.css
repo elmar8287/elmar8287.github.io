@@ -326,7 +326,7 @@ nav {
   margin: 24px 0;
 }
 
-.skill-list>li+li {
+.skill-list > li + li {
   border-bottom: solid 1px #dfe1e6;
 }
 
@@ -466,27 +466,17 @@ form {
 /* The Modal (background) */
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 4;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: scroll;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
   margin-top: -90px;
-
 }
 
 /* Modal Content */
@@ -502,7 +492,7 @@ form {
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -530,10 +520,6 @@ form {
   text-align: center;
   color: #396df2;
   font-size: 15px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 20px; */
   font-family: 'Poppins', sans-serif;
   margin: 5px 5px 5px 5px;
   border-radius: 10px;
@@ -546,10 +532,6 @@ form {
   text-align: center;
   color: #396df2;
   font-size: 15px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 20px; */
   font-family: 'Poppins', sans-serif;
   margin: 5px 5px 5px 5px;
   border-radius: 10px;
@@ -559,25 +541,16 @@ form {
 /* The Modal 2 (background) */
 .modal2 {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 4;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: scroll;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
   margin-top: -90px;
 }
 
@@ -594,7 +567,7 @@ form {
 
 /* The Close Button */
 .close2 {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -610,25 +583,16 @@ form {
 /* The Modal 3 (background) */
 .modal3 {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 4;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: scroll;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
   margin-top: -90px;
 }
 
@@ -645,7 +609,7 @@ form {
 
 /* The Close Button */
 .close3 {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -661,25 +625,16 @@ form {
 /* The Modal 4 (background) */
 .modal4 {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 4;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
   overflow: scroll;
-  /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
   margin-top: -90px;
 }
 
@@ -696,7 +651,7 @@ form {
 
 /* The Close Button */
 .close4 {
-  color: #aaaaaa;
+  color: #a;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -844,24 +799,15 @@ form {
   /* The Modal (background) */
   .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 4;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
-    /* overflow: scroll; Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
   }
 
   /* Modal Content */
@@ -872,12 +818,11 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-    /* overflow: scroll; */
   }
 
   /* The Close Button */
   .close {
-    color: #aaaaaa;
+    color: #a;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -897,24 +842,15 @@ form {
   /* The Modal 2 (background) */
   .modal2 {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 4;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
-    /* overflow: scroll; Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
   }
 
   /* Modal Content */
@@ -925,12 +861,11 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-    /* overflow: scroll; */
   }
 
   /* The Close Button */
   .close2 {
-    color: #aaaaaa;
+    color: #a;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -946,24 +881,15 @@ form {
   /* The Modal 3 (background) */
   .modal3 {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 4;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
-    /* overflow: scroll; Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
     margin-top: -90px;
   }
 
@@ -975,12 +901,11 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-    /* overflow: scroll; */
   }
 
   /* The Close Button */
   .close3 {
-    color: #aaaaaa;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -996,24 +921,15 @@ form {
   /* The Modal 4 (background) */
   .modal4 {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 4;
-    /* Sit on top */
     padding-top: 100px;
-    /* Location of the box */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
-    /* overflow: scroll; Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
     margin-top: -90px;
   }
 
@@ -1025,12 +941,11 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-    /* overflow: scroll; */
   }
 
   /* The Close Button */
   .close4 {
-    color: #aaaaaa;
+    color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
