@@ -1,13 +1,3 @@
-// //Mobile menu
-
-// function openNav() {
-//   document.getElementById('myNav').style.width = "100%";
-// }
-  
-// function closeNav() {
-//   document.getElementById('myNav').style.width = "0%";
-// }
-
 // Cards object creation
 var cardTitle = document.querySelectorAll('.card-body > h2');
 var cardImage = document.querySelectorAll('.section-img1');
