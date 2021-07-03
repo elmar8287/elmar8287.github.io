@@ -843,6 +843,10 @@ form {
     text-decoration: none;
     cursor: pointer;
   }
+
+  .modal-view1 {
+    display: flex;
+  }
     
   /* The Modal 2 (background) */
   .modal2 {
@@ -854,11 +858,7 @@ form {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-<<<<<<< HEAD
     /* overflow: scroll; Enable scroll if needed */
-=======
-    overflow: scroll; /* Enable scroll if needed */
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
@@ -871,11 +871,7 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-<<<<<<< HEAD
     /* overflow: scroll; */
-=======
-    overflow: scroll;
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
   }
 
   /* The Close Button */
@@ -903,11 +899,7 @@ form {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-<<<<<<< HEAD
     /* overflow: scroll; Enable scroll if needed */
-=======
-    overflow: scroll; /* Enable scroll if needed */
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     margin-top: -90px;
@@ -921,11 +913,7 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-<<<<<<< HEAD
     /* overflow: scroll; */
-=======
-    overflow: scroll;
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
   }
 
   /* The Close Button */
@@ -953,11 +941,7 @@ form {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-<<<<<<< HEAD
     /* overflow: scroll; Enable scroll if needed */
-=======
-    overflow: scroll; /* Enable scroll if needed */
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     margin-top: -90px;
@@ -971,11 +955,7 @@ form {
     border: 2px solid #888;
     width: 80%;
     border-radius: 15px;
-<<<<<<< HEAD
     /* overflow: scroll; */
-=======
-    overflow: scroll;
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
   }
 
   /* The Close Button */
@@ -992,8 +972,4 @@ form {
     text-decoration: none;
     cursor: pointer;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 80650b2dcf65926fac952e4e7bd6959d8647bcb1
