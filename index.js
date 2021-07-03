@@ -1,12 +1,12 @@
-//Mobile menu
+// //Mobile menu
 
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
+// function openNav() {
+//   document.getElementById('myNav').style.width = "100%";
+// }
   
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
+// function closeNav() {
+//   document.getElementById('myNav').style.width = "0%";
+// }
 
 // Cards object creation
 const cardTitle = document.querySelectorAll('.card-body > h2');
