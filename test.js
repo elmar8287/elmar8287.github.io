@@ -6,7 +6,7 @@ const projects = [
     position: 'Front End Dev',
     year: 2021,
     description:
-      'This is a forum web-site with all necessery information about upcoming events, speakers and sponsors. You can add program details and reqistration form. In this template you have not to signup, but you can add this functionality in future. Please, consider, that whole content on this web-site is fictional',
+      'This is a forum website with all necessary information about upcoming events, speakers, and sponsors. You can add program details and a registration form. In this template, you do not need to signup, but you can add this functionality in the future. Please, consider, that the whole content on this website is fictional.',
     technologies: ['html', 'css', 'javascript'],
     image: {
       link: './img/pproject0.jpg',
@@ -22,7 +22,7 @@ const projects = [
     position: 'Front End Dev',
     year: 2021,
     description:
-      'Nice designed project with Bootstrap. Used single-page application. This is a project that displays a list of books and allows you to add and remove books from that list. Each book related to author. You can fix the number of books, which will be displayed. In this template, you can see max number of books per page 6.',
+      'Nice designed project with Bootstrap. Used single-page application. This is a project that displays a list of books and allows you to add and remove books from that list. Each book is related to the author. You can fix the number of books, which will be displayed. In this template, you can see the max number of books per page 6.',
     technologies: ['html', 'luxon', 'css','bootstrap', 'javascript'],
     image: {
       link: './img/project1.png',
@@ -38,7 +38,7 @@ const projects = [
     position: 'Front End Dev',
     year: 2021,
     description:
-      'To-do list application billed on JS. There are all necessary functionalities, also drag and drop. This is a project that displays a list of tasks. You can fix any of tasks as completed, edit and delete. Also there is an functionality of deleting all completed tasks.',
+      'To-do list application billed on JS. There are all necessary functionalities, also drag and drop. This is a project that displays a list of tasks. You can fix any of the tasks as completed, edit and delete. Also, there is the functionality of deleting all completed tasks.',
     technologies: ['html', 'css', 'javascript'],
     image: {
       link: './img/project2.png',
