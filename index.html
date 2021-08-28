@@ -24,10 +24,10 @@
 </head>
 <body id="body">
   <header class="header">
-    <a href="#" class="logo">Welcome!</a>
+    <a href="#" class="logo">Welcome</a>
 
     <nav>
-      <i class="fas fa-bars mobile-menu" id="mobile-menu"></i>
+      <span id="union" onclick='openNav()'><img src="./img/union.png" alt="navbarimage" /></span>
       <ul class="desktop-menu">
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -120,7 +120,7 @@
         </li>
       </ul>
 
-      <a href="#" class="btn">Get my resume</a>
+      <a href="#contact" class="btn">Get my resume</a>
     </div>
 
     <div class="tech-stack">
@@ -226,6 +226,17 @@
 
     <div class="line-shape"></div>
   </section>
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="#about" onclick="closeNav()">About</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+    </div>
+  </div>
+
+
   <script src="test.js"></script>
 </body>
 </html>

@@ -24,6 +24,10 @@ a {
   justify-content: space-between;
   background-color: #fff;
   padding: 24px;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0px 15px 10px -15px #111;
 }
 
 .logo {
@@ -513,6 +517,57 @@ form:invalid > #submit {
   color: rgb(248, 200, 200);
 }
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(10px);
+  opacity: 95%;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: left;
+  margin-top: -30px;
+  margin-left: 2em;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  color: #ebebeb;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#union {
+  margin-right: 50px;
+}
+
 /* Desktop version */
 
 @media (min-width: 1024px) and (max-width: 1439px) {
@@ -530,6 +585,7 @@ form:invalid > #submit {
 
   .desktop-menu {
     display: flex;
+    margin-right: 250px;
   }
 
   .desktop-menu a {
@@ -818,6 +874,7 @@ form:invalid > #submit {
 
   .desktop-menu {
     display: flex;
+    margin-right: 250px;
   }
 
   .desktop-menu a {
