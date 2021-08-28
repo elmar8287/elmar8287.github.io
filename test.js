@@ -56,7 +56,7 @@ modalDetails.className = 'project-details';
 function showDetails(projectIndex) {
   const projectsCode = `
   <div class="details-container">
-  <span id="closeDetails"><i class="fas fa-times closeDetails"></i></span>
+  <span id="closeDetails">X</span>
   <h2 class="project-title">${projects[projectIndex].name}</h2>
   <div class="stats">
       <span class="company">${projects[projectIndex].companyName}</span>

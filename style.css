@@ -275,7 +275,7 @@ h1 {
   position: relative;
 }
 
-.closeDetails {
+#closeDetails {
   position: absolute;
   right: 20px;
   top: 30px;
@@ -867,7 +867,7 @@ form:invalid > #submit {
   #union {
     display: none;
   }
-  
+
   .header {
     padding: 25px 142px;
     justify-content: space-between;
