@@ -33,19 +33,19 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Todo List',
+    name: 'Leaderboard API',
     companyName: 'Microverse',
     position: 'Front End Dev',
     year: 2021,
     description:
-      'To-do list application billed on JS. There are all necessary functionalities, also drag and drop. This is a project that displays a list of tasks. You can fix any of the tasks as completed, edit and delete. Also, there is the functionality of deleting all completed tasks.',
-    technologies: ['html', 'css', 'javascript'],
+      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+    technologies: ['html', 'css','bootstrap', 'javascript'],
     image: {
       link: './img/project2.png',
       alt: 'TodoList',
     },
-    liveSource: 'https://elmar8287.github.io/todo-list/',
-    sourceCode: 'https://github.com/elmar8287/todo-list',
+    liveSource: 'https://elmar8287.github.io/leaderboard/',
+    sourceCode: 'https://github.com/elmar8287/leaderboard',
   },
 
 ];
