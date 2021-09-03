@@ -1,236 +1,211 @@
-// Cards object creation
-const cardTitle = document.querySelectorAll('.card-body > h2');
-const cardImage = document.querySelectorAll('.section-img1');
-const cardInfo = document.querySelectorAll('.info');
-const cardDesc = document.querySelectorAll('.section-info');
-const cardTech = document.querySelectorAll('.program-btns');
-const cardBtn = document.querySelectorAll('.myBtn');
-let card1 = {};
-let card2 = {};
-let card3 = {};
-let card4 = {};
-const cardObjects = [
-  (card1 = {
-    title: cardTitle[0].innerHTML,
-    info: cardInfo[0],
-    Image: cardImage[0],
-    description: cardDesc[0],
-    technologies: cardTech[0],
-    cardbutton: cardBtn[0],
-    Live: 'https://elmar8287.github.io/',
-    Source: 'https://github.com/elmar8287/elmar8287.github.io',
-  }),
-  (card2 = {
-    title: cardTitle[2].innerHTML,
-    info: cardInfo[1],
-    Image: cardImage[1],
-    description: cardDesc[1],
-    technologies: cardTech[1],
-    cardbutton: cardBtn[3],
-    Live: 'https://elmar8287.github.io/',
-    Source: 'https://github.com/elmar8287/elmar8287.github.io',
-  }),
-  (card3 = {
-    title: cardTitle[4].innerHTML,
-    info: cardInfo[2],
-    Image: cardImage[2],
-    description: cardDesc[2],
-    technologies: cardTech[2],
-    cardbutton: cardBtn[4],
-    Live: 'https://elmar8287.github.io/',
-    Source: 'https://github.com/elmar8287/elmar8287.github.io',
-  }),
-  (card4 = {
-    title: cardTitle[5].innerHTML,
-    info: cardInfo[3],
-    Image: cardImage[3],
-    description: cardDesc[2],
-    technologies: cardTech[3],
-    cardbutton: cardBtn[5],
-    Live: 'https://elmar8287.github.io/',
-    Source: 'https://github.com/elmar8287/elmar8287.github.io',
-  }),
+const projects = [
+  {
+    id: 0,
+    name: 'Digitalization in Medicine',
+    companyName: 'AIMedicine',
+    position: 'Front End Dev',
+    year: 2021,
+    description:
+      'This is a forum website with all necessary information about upcoming events, speakers, and sponsors. You can add program details and a registration form. In this template, you do not need to signup, but you can add this functionality in the future. Please, consider, that the whole content on this website is fictional.',
+    technologies: ['html', 'css', 'javascript'],
+    image: {
+      link: './img/pproject0.jpg',
+      alt: 'Digitalization in Medicine',
+    },
+    liveSource: 'https://elmar8287.github.io/capstone/',
+    sourceCode: 'https://github.com/elmar8287/capstone',
+  },
+  {
+    id: 1,
+    name: 'Awesome Books',
+    companyName: 'Microverse',
+    position: 'Front End Dev',
+    year: 2021,
+    description:
+      'Nice designed project with Bootstrap. Used single-page application. This is a project that displays a list of books and allows you to add and remove books from that list. Each book is related to the author. You can fix the number of books, which will be displayed. In this template, you can see the max number of books per page 6.',
+    technologies: ['html', 'luxon', 'css','bootstrap', 'javascript'],
+    image: {
+      link: './img/project1.png',
+      alt: 'Awesome Books screenshot',
+    },
+    liveSource: 'https://elmar8287.github.io/awesome-books/',
+    sourceCode: 'https://github.com/elmar8287/awesome-books',
+  },
+  {
+    id: 2,
+    name: 'Todo List',
+    companyName: 'Microverse',
+    position: 'Front End Dev',
+    year: 2021,
+    description:
+      'To-do list application billed on JS. There are all necessary functionalities, also drag and drop. This is a project that displays a list of tasks. You can fix any of the tasks as completed, edit and delete. Also, there is the functionality of deleting all completed tasks.',
+    technologies: ['html', 'css', 'javascript'],
+    image: {
+      link: './img/project2.png',
+      alt: 'TodoList',
+    },
+    liveSource: 'https://elmar8287.github.io/todo-list/',
+    sourceCode: 'https://github.com/elmar8287/todo-list',
+  },
+
 ];
+const modalDetails = document.createElement('div');
+modalDetails.id = 'modal-details';
+modalDetails.className = 'project-details';
 
-// Modal creation
-
-const div = document.createElement('div');
-div.className = 'modal';
-div.id = 'myModal';
-div.setAttribute('data-close-button', '');
-const div2 = document.createElement('div');
-div2.className = 'modal-content modal-card';
-const div3 = document.createElement('div');
-div3.id = 'modal-header';
-const h2 = document.createElement('h2');
-h2.id = 'modal-title';
-h2.innerHTML = 'ffff';
-div3.appendChild(h2);
-const button1 = document.createElement('span');
-button1.setAttribute('class', 'close');
-button1.innerHTML = '&times;';
-div3.appendChild(button1);
-div2.appendChild(div3);
-const div8 = document.createElement('div');
-div8.className = 'modal-float2';
-const p = document.createElement('p');
-p.textContent = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent';
-p.className = 'modal-desc';
-div8.appendChild(p);
-const div7 = document.createElement('div');
-div7.className = 'modal-float';
-const div5 = document.createElement('div');
-div5.id = 'modal-foot';
-const button2 = document.createElement('button');
-button2.setAttribute('type', 'button');
-button2.className = 'btn4 btn';
-button2.textContent = 'See live';
-const livesee = document.querySelector('.modallive');
-livesee.style.display = 'block';
-livesee.firstElementChild.style.width = '25px';
-livesee.firstElementChild.style.height = '25px';
-livesee.style.heigth = '8px';
-livesee.style.marginLeft = '5px';
-button2.appendChild(livesee);
-div5.appendChild(button2);
-const button3 = document.createElement('button');
-button3.setAttribute('type', 'button');
-button3.className = 'btn4 btn';
-button3.textContent = 'See Source';
-const git = document.querySelector('.modalgit');
-git.style.display = 'block';
-git.style.marginLeft = '5px';
-button3.appendChild(git);
-div5.appendChild(button3);
-div7.appendChild(div5);
-div8.appendChild(div7);
-div2.appendChild(div8);
-const div6 = document.createElement('div');
-div6.id = 'modal-line';
-div.appendChild(div2);
-div.appendChild(div6);
-const body = document.getElementById('body');
-body.appendChild(div);
-
-// Open Modal
-
-for (let i = 0; i < cardObjects.length; i += 1) {
-  cardObjects[i].cardbutton = cardBtn[i];
-  if (cardObjects[i].cardbutton.classList.contains('myBtn1')) {
-    cardObjects[i] = card1;
-    const btn = cardObjects[i].cardbutton;
-    btn.addEventListener('click', () => {
-      const modal = document.getElementById('myModal');
-      modal.style.display = 'block';
-      h2.innerHTML = cardObjects[i].title;
-      div2.insertBefore(cardObjects[i].Image, div8);
-      cardImage[0].style.display = 'block';
-      div2.insertBefore(cardObjects[i].info, cardObjects[i].Image);
-      div7.insertBefore(cardObjects[i].technologies, div5);
+function showDetails(projectIndex) {
+  const projectsCode = `
+  <div class="details-container">
+  <span id="closeDetails">X</span>
+  <h2 class="project-title">${projects[projectIndex].name}</h2>
+  <div class="stats">
+      <span class="company">${projects[projectIndex].companyName}</span>
+      <span class="role-and-year">${projects[projectIndex].position}</span>
+      <span class="role-and-year">${projects[projectIndex].year}</span>
+  </div>
+  <img src="${projects[projectIndex].image.link}" alt="${
+  projects[projectIndex].image.alt
+}" />
+  <div class="project-info">
+  <p class="description">
+    ${projects[projectIndex].description}
+  </p>
+    <div class="tech-and-buttons">
+      <ul class="languages">
+      ${(function usedTech() {
+    return projects[projectIndex].technologies
+      .map((tech) => `<li class="language">${tech}</li>`)
+      .join('');
+  }())}
+      </ul>
+      <div class="buttons">
+        <a href="${
+  projects[projectIndex].liveSource
+}" class="btn">See Live <i class="fas fa-external-link-alt"></i></a>
+        <a href="${
+  projects[projectIndex].sourceCode
+}" class="btn">See Source <i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </div>
+  </div>`;
+  modalDetails.innerHTML += projectsCode;
+  document.body.appendChild(modalDetails);
+  document.getElementById('closeDetails').addEventListener('click', () => {
+    modalDetails.innerHTML = '';
+    document.body.removeChild(modalDetails);
+    blurred.forEach((section) => {
+      section.style.filter = 'blur(0)';
     });
-  }
-  if (cardObjects[i].cardbutton.classList.contains('myBtn2')) {
-    cardObjects[i] = card2;
-    const btn = cardObjects[i].cardbutton;
-    btn.addEventListener('click', () => {
-      const modal = document.getElementById('myModal');
-      modal.style.display = 'block';
-      h2.innerHTML = cardObjects[i].title;
-      div2.insertBefore(cardObjects[i].Image, div8);
-      cardImage[1].style.display = 'block';
-      div2.insertBefore(cardObjects[i].info, cardObjects[i].Image);
-      div7.insertBefore(cardObjects[i].technologies, div5);
-    });
-  }
-  if (cardObjects[i].cardbutton.classList.contains('myBtn3')) {
-    cardObjects[i] = card3;
-    const btn = cardObjects[i].cardbutton;
-    btn.addEventListener('click', () => {
-      const modal = document.getElementById('myModal');
-      modal.style.display = 'block';
-      h2.innerHTML = cardObjects[i].title;
-      div2.insertBefore(cardObjects[i].Image, div8);
-      cardImage[2].style.display = 'block';
-      div2.insertBefore(cardObjects[i].info, cardObjects[i].Image);
-      div7.insertBefore(cardObjects[i].technologies, div5);
-    });
-  } else if (cardObjects[i].cardbutton.classList.contains('myBtn4')) {
-    cardObjects[i] = card4;
-    const btn = cardObjects[i].cardbutton;
-    btn.addEventListener('click', () => {
-      const modal = document.getElementById('myModal');
-      modal.style.display = 'block';
-      h2.innerHTML = cardObjects[i].title;
-      div2.insertBefore(cardObjects[i].Image, div8);
-      cardImage[3].style.display = 'block';
-      div2.insertBefore(cardObjects[i].info, cardObjects[i].Image);
-      div7.insertBefore(cardObjects[i].technologies, div5);
-    });
-  }
+  });
 }
 
-// Closing modal
+const portfolio = document.getElementById('portfolio');
+const projectList = document.createElement('ul');
+projectList.className = 'project-list';
+portfolio.appendChild(projectList);
 
-const modal = document.getElementById('myModal');
-const span = document.getElementsByClassName('close')[0];
-span.onclick = function () {
-  modal.style.display = 'none';
-};
+const projectsCode = projects.map(
+  (project) => `<li class="project">
+  <img src="${project.image.link}" alt="${project.image.alt}" />
+  <div class="project-info">
+    <h2 class="project-title">${project.name}</h2>
+    <div class="stats">
+      <span class="company">${project.companyName}</span>
+      <span class="role-and-year">${project.position}</span>
+      <span class="role-and-year">${project.year}</span>
+    </div>
+    <p class="description">
+    ${project.description}
+    </p>
+    <ul class="languages">
+    ${(function usedTech() {
+    return project.technologies
+      .map((tech) => `<li class="language">${tech}</li>`)
+      .join('');
+  }())}
+    </ul>
+    <button class="btn details-btn" type="button" data-id="${
+  project.id
+}">See Project</button>
+  </div>
+</li>`,
+);
+projectList.innerHTML = projectsCode.join('');
 
-// Form Validation
+const showButton = document.querySelectorAll('.details-btn');
+showButton.forEach((btn) => {
+  btn.addEventListener('click', (event) => {
+    showDetails(event.target.dataset.id);
+    blurred.forEach((section) => {
+      section.style.filter = 'blur(5px)';
+    });
+  });
+});
 
-const form = document.getElementById('footer-form');
-const email = document.getElementById('email-detail');
-const errorMessage = document.getElementById('invalid');
+const userData = JSON.stringify({
+  name: '',
+  email: '',
+  message: '',
+});
+
+const form = document.getElementById('contact-form');
+const usernameInput = document.getElementById('full-name');
+const emailInput = document.getElementById('email-address');
+const messageText = document.getElementById('message');
+const errorMessage = document.getElementById('error-message');
+const resetBtn = document.getElementById('reset');
+
 form.addEventListener('submit', (e) => {
-  if (email.value.toLowerCase() !== email.value) {
+  if (emailInput.value.toLowerCase() !== emailInput.value) {
     e.preventDefault();
-    errorMessage.style.color = 'white';
-    errorMessage.style.fontWeight = 'bold';
-    errorMessage.textContent = 'Please use only lowercase letters for your e-mail!';
+    errorMessage.textContent = 'Please, use only lowercase letters for your e-mail!';
+  } else {
+    localStorage.setItem('userInfo', userData);
   }
 });
 
-// Storage
+// -------------- Local Storage ---------------------------
 
-function saveFormDataToLocalStorage(name, email, message) {
-  const contactInfo = {
-    name: name.value,
-    email: email.value,
-    message: message.value,
-  };
-  localStorage.setItem('contactInfo', JSON.stringify(contactInfo));
-}
-const nameInput = document.querySelector('footer form input[type="text"]');
-const emailInput = document.querySelector('footer form input[type=email]');
-const messageInput = document.querySelector('footer form textarea');
-const inputsArray = [emailInput, nameInput, messageInput];
-// GETTING FORM DATA FROM LOCAL STORAGE
 window.addEventListener('load', () => {
-  if (JSON.parse(localStorage.getItem('contactInfo'))) {
-    const { name, email, message } = JSON.parse(
-      localStorage.getItem('contactInfo'),
-    );
-    emailInput.value = email;
-    nameInput.value = name;
-    messageInput.value = message;
+  if (localStorage.getItem('userInfo')) {
+    const userInfo = JSON.parse(localStorage.getItem('userInfo'));
+    usernameInput.value = userInfo.name;
+    emailInput.value = userInfo.email;
+    messageText.value = userInfo.message;
+  } else {
+    localStorage.setItem('userInfo', userData);
   }
-  inputsArray.forEach((input) => input.addEventListener('input', (e) => {
-    if (input === nameInput) {
-      nameInput.value = input.value;
-    } else if (input === emailInput) {
-      emailInput.value = input.value;
-      // VALIDATION EMAIL INPUT
-      if (e.target.value !== emailInput.value.toLowerCase()) {
-        e.preventDefault();
-        emailInput.parentElement.classList.add('invalidInput');
-      } else {
-        saveFormDataToLocalStorage(nameInput, emailInput, messageInput);
-        emailInput.parentElement.classList.remove('invalidInput');
-      }
-    } else {
-      messageInput.value = input.value;
-    }
-    saveFormDataToLocalStorage(nameInput, emailInput, messageInput);
-  }));
 });
+
+function saveData(key, value) {
+  if (localStorage.getItem('userInfo')) {
+    const oldData = JSON.parse(localStorage.getItem('userInfo'));
+    const newData = { ...oldData, [key]: value };
+    localStorage.setItem('userInfo', JSON.stringify(newData));
+  } else {
+    localStorage.setItem('userInfo', userData);
+  }
+}
+
+form.addEventListener('input', (evt) => {
+  if (evt.target.dataset.id === 'name' || evt.target.dataset.id === 'email' || evt.target.dataset.id === 'message') {
+    saveData(evt.target.dataset.id, evt.target.value);
+  }
+});
+
+resetBtn.addEventListener('click', () => {
+  localStorage.setItem('userInfo', userData);
+});
+
+function openNav() {
+  document.getElementById('myNav').style.width = '100%';
+}
+
+openNav();
+
+function closeNav() {
+  document.getElementById('myNav').style.width = '0%';
+}
+
+closeNav();
