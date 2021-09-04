@@ -194,10 +194,6 @@ form.addEventListener('input', (evt) => {
   }
 });
 
-resetBtn.addEventListener('click', () => {
-  localStorage.setItem('userInfo', userData);
-});
-
 function openNav() {
   document.getElementById('myNav').style.width = '100%';
 }
@@ -209,3 +205,20 @@ function closeNav() {
 }
 
 closeNav();
+
+const mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+const scrollFunction = () => {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+};
+
+const topFunction = () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+};
