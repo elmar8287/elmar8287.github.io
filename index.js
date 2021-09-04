@@ -18,7 +18,7 @@ const projects = [
   {
     id: 1,
     name: 'Awesome Books',
-    companyName: 'Microverse',
+    companyName: 'Company X',
     position: 'Front End Dev',
     year: 2021,
     description:
@@ -34,7 +34,7 @@ const projects = [
   {
     id: 2,
     name: 'Leaderboard API',
-    companyName: 'Microverse',
+    companyName: 'Company Y',
     position: 'Front End Dev',
     year: 2021,
     description:
