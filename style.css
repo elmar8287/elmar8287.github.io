@@ -590,6 +590,11 @@ form:invalid > #submit {
 /* Desktop version */
 
 @media (min-width: 1024px) and (max-width: 1439px) {
+  .onHover:hover {
+    ackground-color: #344563;
+    color: white;
+  }
+
   #myBtn {
     display: none;
     position: fixed;
@@ -902,6 +907,13 @@ form:invalid > #submit {
 }
 
 @media (min-width: 1024px) {
+  .onHover:hover {
+    background-color: #1663e7;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
   /* Header Section */
   #union {
     display: none;
