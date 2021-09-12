@@ -33,8 +33,24 @@ const projects = [
   },
   {
     id: 2,
-    name: 'Leaderboard API',
+    name: 'JS API project - Meals DB',
     companyName: 'Company Y',
+    position: 'Front End Dev',
+    year: 2021,
+    description:
+      'Meal API allows us to get a list of items with a unique item id (or generate the unique id), and for a given item, get detailed information about it. Also used other API, where saved likes and comments for each item.',
+    technologies: ['html', 'css','bootstrap', 'javascript'],
+    image: {
+      link: './img/project3.png',
+      alt: 'JS API project',
+    },
+    liveSource: 'https://aliabbani.github.io/Lemonade-api',
+    sourceCode: 'https://github.com/aliabbani/Lemonade-api',
+  },
+  {
+    id: 3,
+    name: 'Leaderboard API',
+    companyName: 'Company Z',
     position: 'Front End Dev',
     year: 2021,
     description:
