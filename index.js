@@ -44,7 +44,7 @@ const projects = [
       link: './img/project3.png',
       alt: 'JS API project',
     },
-    liveSource: 'https://aliabbani.github.io/Lemonade-api',
+    liveSource: 'https://aliabbani.github.io/Lemonade-api/dist/',
     sourceCode: 'https://github.com/aliabbani/Lemonade-api',
   },
   {
