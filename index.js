@@ -17,8 +17,24 @@ const projects = [
   },
   {
     id: 1,
-    name: 'Awesome Books',
+    name: 'TODO list in React',
     companyName: 'Company X',
+    position: 'Front End Dev',
+    year: 2021,
+    description:
+      'This is a SPA todo-list, helps to organize tasks. You can easily add, delete and edit todos. Also, there is the possibility to mark tasks as completed. Local storage will keep your task on the list after refreshing and either close/open the browser.',
+    technologies: ['react', 'css'],
+    image: {
+      link: './img/project4.png',
+      alt: 'TODO list',
+    },
+    liveSource: 'https://elmar8287.github.io/react-tuto/',
+    sourceCode: 'https://github.com/elmar8287/react-tuto',
+  },
+  {
+    id: 2,
+    name: 'Awesome Books',
+    companyName: 'Company Y',
     position: 'Front End Dev',
     year: 2021,
     description:
@@ -32,9 +48,9 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/awesome-books',
   },
   {
-    id: 2,
+    id: 3,
     name: 'JS API project - Meals DB',
-    companyName: 'Company Y',
+    companyName: 'Company Z',
     position: 'Front End Dev',
     year: 2021,
     description:
@@ -48,9 +64,9 @@ const projects = [
     sourceCode: 'https://github.com/aliabbani/Lemonade-api',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Leaderboard API',
-    companyName: 'Company Z',
+    companyName: 'Company A',
     position: 'Front End Dev',
     year: 2021,
     description:
