@@ -79,6 +79,22 @@ const projects = [
     liveSource: 'https://elmar8287.github.io/leaderboard/',
     sourceCode: 'https://github.com/elmar8287/leaderboard',
   },
+  {
+    id: 5,
+    name: 'Math Magicians',
+    companyName: 'Company B',
+    position: 'Full stack',
+    year: 2021,
+    description:
+      'It is a Single Page App (SPA) built in React. This project allows users to make simple calculations and read a random math-related quote.',
+    technologies: ['css','react', 'javascript', 'heroku', 'netlify'],
+    image: {
+      link: './img/project5.png',
+      alt: 'TodoList',
+    },
+    liveSource: 'https://elmar8287.github.io/react-math/',
+    sourceCode: 'https://github.com/elmar8287/react-math',
+  },
 
 ];
 const modalDetails = document.createElement('div');
