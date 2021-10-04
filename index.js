@@ -95,7 +95,22 @@ const projects = [
     liveSource: 'https://elmar8287.github.io/react-math/',
     sourceCode: 'https://github.com/elmar8287/react-math',
   },
-
+  {
+    id: 6,
+    name: 'Bookstore',
+    companyName: 'Company C',
+    position: 'Full stack',
+    year: 2021,
+    description:
+      'This is a React application related to add, delete and display favorite books. Here you can see progress in reading for each book.',
+    technologies: ['css','react', 'redux', 'javascript', 'netlify'],
+    image: {
+      link: './img/project6.PNG',
+      alt: 'Bookstore',
+    },
+    liveSource: 'https://bookstore-abdulkae.netlify.app/',
+    sourceCode: 'https://github.com/elmar8287/Bookstore',
+  },
 ];
 const modalDetails = document.createElement('div');
 modalDetails.id = 'modal-details';
