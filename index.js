@@ -76,7 +76,7 @@ const projects = [
       link: './img/project7.png',
       alt: 'Space Travelers Hub',
     },
-    liveSource: 'https://elmar8287.github.io/leaderboard/',
+    liveSource: 'https://space-travelers.netlify.app/',
     sourceCode: 'https://github.com/elmar8287/space-travelers',
   },
   {
