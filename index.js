@@ -65,8 +65,24 @@ const projects = [
   },
   {
     id: 4,
-    name: 'Leaderboard API',
+    name: 'Space Travelers Hub',
     companyName: 'Company A',
+    position: 'Front End Dev',
+    year: 2021,
+    description:
+      'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    technologies: ['css','react', 'redux', 'javascript', 'netlify'],
+    image: {
+      link: './img/project7.png',
+      alt: 'Space Travelers Hub',
+    },
+    liveSource: 'https://elmar8287.github.io/leaderboard/',
+    sourceCode: 'https://github.com/elmar8287/space-travelers',
+  },
+  {
+    id: 5,
+    name: 'Leaderboard API',
+    companyName: 'Company B',
     position: 'Front End Dev',
     year: 2021,
     description:
@@ -80,9 +96,9 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/leaderboard',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Math Magicians',
-    companyName: 'Company B',
+    companyName: 'Company C',
     position: 'Full stack',
     year: 2021,
     description:
@@ -96,9 +112,9 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/react-math',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Bookstore',
-    companyName: 'Company C',
+    companyName: 'Company D',
     position: 'Full stack',
     year: 2021,
     description:
@@ -112,6 +128,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/Bookstore',
   },
 ];
+
 const modalDetails = document.createElement('div');
 modalDetails.id = 'modal-details';
 modalDetails.className = 'project-details';
