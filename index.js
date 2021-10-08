@@ -66,7 +66,7 @@ const projects = [
   {
     id: 4,
     name: 'Space Travelers Hub',
-    companyName: 'Company A',
+    companyName: 'SpaceX',
     position: 'Front End Dev',
     year: 2021,
     description:
