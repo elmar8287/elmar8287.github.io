@@ -73,7 +73,7 @@ const projects = [
       'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
     technologies: ['css','react', 'redux', 'javascript', 'netlify'],
     image: {
-      link: './img/project7.png',
+      link: './img/project7.PNG',
       alt: 'Space Travelers Hub',
     },
     liveSource: 'https://space-travelers.netlify.app/',
