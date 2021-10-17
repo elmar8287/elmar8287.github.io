@@ -134,14 +134,14 @@ const projects = [
     position: 'Full stack',
     year: 2021,
     description:
-      'This is a React application related to add, delete and display favorite books. Here you can see progress in reading for each book.',
+      'The project is about building a mobile web application to check a list of Worldwide COVID-19 metrics (numeric values). By clicking on the country name, there is a possibility to view more detailed information.',
     technologies: ['css','react', 'redux', 'javascript', 'netlify'],
     image: {
-      link: './img/project6.PNG',
-      alt: 'Bookstore',
+      link: './img/project8.PNG',
+      alt: 'COVID-19 Metrics',
     },
-    liveSource: 'https://bookstore-abdulkae.netlify.app/',
-    sourceCode: 'https://github.com/elmar8287/Bookstore',
+    liveSource: 'https://elmar-project-covid19.netlify.app/',
+    sourceCode: 'https://github.com/elmar8287/metrics',
   },
 ];
 
