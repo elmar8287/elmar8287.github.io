@@ -127,6 +127,22 @@ const projects = [
     liveSource: 'https://bookstore-abdulkae.netlify.app/',
     sourceCode: 'https://github.com/elmar8287/Bookstore',
   },
+  {
+    id: 8,
+    name: 'Covid-19 Metrics',
+    companyName: 'Covid-19',
+    position: 'Full stack',
+    year: 2021,
+    description:
+      'This is a React application related to add, delete and display favorite books. Here you can see progress in reading for each book.',
+    technologies: ['css','react', 'redux', 'javascript', 'netlify'],
+    image: {
+      link: './img/project6.PNG',
+      alt: 'Bookstore',
+    },
+    liveSource: 'https://bookstore-abdulkae.netlify.app/',
+    sourceCode: 'https://github.com/elmar8287/Bookstore',
+  },
 ];
 
 const modalDetails = document.createElement('div');
