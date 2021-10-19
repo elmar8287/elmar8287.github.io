@@ -15,6 +15,7 @@ You can visit live version via [link](https://elmar8287.github.io/)
 
 - HTML/CSS/JS
 - Figma
+- GH pages
 
 ## Author
 
