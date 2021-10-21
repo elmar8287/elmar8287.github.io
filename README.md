@@ -6,7 +6,7 @@
 * Added popup window for each card, using data dinamicaly, with JS
 
 
-## Live demo
+## Live version
 You can visit live version via [link](https://elmar8287.github.io/)
 
 ![Screen Shot](./desktop-version.PNG)
