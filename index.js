@@ -1,6 +1,22 @@
 const projects = [
   {
     id: 0,
+    name: 'Sprinters sales inventory web-page',
+    companyName: 'Dreamcar Auto Sales',
+    position: 'Front End Dev',
+    year: 2022,
+    description:
+      'This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.',
+    technologies: ['react', 'redux', 'firebase','netlify'],
+    image: {
+      link: './img/pproject9.jpg',
+      alt: 'Sprinters sales inventory web-page',
+    },
+    liveSource: 'https://dreamcarsautosales.com/',
+    sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
+  },
+  {
+    id: 1,
     name: 'Digitalization in Medicine',
     companyName: 'AIMedicine',
     position: 'Front End Dev',
@@ -16,7 +32,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/capstone',
   },
   {
-    id: 1,
+    id: 2,
     name: 'TODO list in React',
     companyName: 'Company X',
     position: 'Front End Dev',
@@ -32,7 +48,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/react-tuto',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Awesome Books',
     companyName: 'Company Y',
     position: 'Front End Dev',
@@ -48,7 +64,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/awesome-books',
   },
   {
-    id: 3,
+    id: 4,
     name: 'JS API project - Meals DB',
     companyName: 'Company Z',
     position: 'Front End Dev',
@@ -64,7 +80,7 @@ const projects = [
     sourceCode: 'https://github.com/aliabbani/Lemonade-api',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Space Travelers Hub',
     companyName: 'SpaceX',
     position: 'Front End Dev',
@@ -80,7 +96,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/space-travelers',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Leaderboard API',
     companyName: 'Company B',
     position: 'Front End Dev',
@@ -96,7 +112,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/leaderboard',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Math Magicians',
     companyName: 'Company C',
     position: 'Full stack',
@@ -112,7 +128,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/react-math',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Bookstore',
     companyName: 'Company D',
     position: 'Full stack',
@@ -128,7 +144,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/Bookstore',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Covid-19 Metrics',
     companyName: 'Covid-19',
     position: 'Full stack',
