@@ -9,7 +9,7 @@ const projects = [
       'The project is a Pod portfolio web-page, while being a part of MLH Prep July 2022 three weeks program.',
     technologies: ['jekyll', 'js', 'html','css','netlify'],
     image: {
-      link: './img/pproject10.jpg',
+      link: './img/project10.png',
       alt: 'MLH Pod Portfolio Web-page',
     },
     liveSource: 'https://prep-22-jul-prep-3-portfolio.netlify.app/',
