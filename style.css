@@ -30,7 +30,7 @@ a {
   padding: 10px;
   position: fixed;
   width: 100%;
-  box-shadow: 0px 15px 10px -15px #111;
+  box-shadow: 0 15px 10px -15px #111;
 }
 
 .logo {
@@ -596,7 +596,7 @@ form:invalid > #submit {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   .onHover:hover {
-    ackground-color: #344563;
+    background-color: #344563;
     color: white;
   }
 
@@ -615,16 +615,17 @@ form:invalid > #submit {
     padding: 15px;
     border-radius: 4px;
   }
-  
+
   #myBtn:hover {
     background-color: #555;
-  }  
+  }
+
   /* Header Section */
   #union {
     display: none;
   }
 
-   .header {
+  .header {
     padding: 25px 142px;
     justify-content: space-between;
     align-items: center;
