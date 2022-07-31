@@ -23,7 +23,7 @@ const projects = [
     year: 2022,
     description:
       'The project is a Pod portfolio web-page, while being a part of MLH Prep July 2022 three weeks program.',
-    technologies: ['jekyll', 'js', 'html','css','netlify'],
+    technologies: ['jekyll', 'js', 'html', 'css', 'netlify'],
     image: {
       link: './img/project10.png',
       alt: 'MLH Pod Portfolio Web-page',
@@ -39,7 +39,7 @@ const projects = [
     year: 2022,
     description:
       'This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.',
-    technologies: ['react', 'redux', 'firebase','netlify'],
+    technologies: ['react', 'redux', 'firebase', 'netlify'],
     image: {
       link: './img/pproject9.jpg',
       alt: 'Sprinters sales inventory web-page',
@@ -87,7 +87,7 @@ const projects = [
     year: 2021,
     description:
       'Nice designed project with Bootstrap. Used single-page application. This is a project that displays a list of books and allows you to add and remove books from that list. Each book is related to the author. You can fix the number of books, which will be displayed. In this template, you can see the max number of books per page 6.',
-    technologies: ['html', 'luxon', 'css','bootstrap', 'javascript'],
+    technologies: ['html', 'luxon', 'css', 'bootstrap', 'javascript'],
     image: {
       link: './img/project1.png',
       alt: 'Awesome Books screenshot',
@@ -103,7 +103,7 @@ const projects = [
     year: 2021,
     description:
       'Meal API allows us to get a list of items with a unique item id (or generate the unique id), and for a given item, get detailed information about it. Also used other API, where saved likes and comments for each item.',
-    technologies: ['html', 'css','bootstrap', 'javascript'],
+    technologies: ['html', 'css', 'bootstrap', 'javascript'],
     image: {
       link: './img/project3.png',
       alt: 'JS API project',
@@ -119,7 +119,7 @@ const projects = [
     year: 2021,
     description:
       'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
-    technologies: ['css','react', 'redux', 'javascript', 'netlify'],
+    technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
     image: {
       link: './img/project7.PNG',
       alt: 'Space Travelers Hub',
@@ -135,7 +135,7 @@ const projects = [
     year: 2021,
     description:
       'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
-    technologies: ['html', 'css','bootstrap', 'javascript'],
+    technologies: ['html', 'css', 'bootstrap', 'javascript'],
     image: {
       link: './img/project2.png',
       alt: 'TodoList',
@@ -151,7 +151,7 @@ const projects = [
     year: 2021,
     description:
       'It is a Single Page App (SPA) built in React. This project allows users to make simple calculations and read a random math-related quote.',
-    technologies: ['css','react', 'javascript', 'heroku', 'netlify'],
+    technologies: ['css', 'react', 'javascript', 'heroku', 'netlify'],
     image: {
       link: './img/project5.PNG',
       alt: 'Math Magicians',
@@ -167,7 +167,7 @@ const projects = [
     year: 2021,
     description:
       'This is a React application related to add, delete and display favorite books. Here you can see progress in reading for each book.',
-    technologies: ['css','react', 'redux', 'javascript', 'netlify'],
+    technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
     image: {
       link: './img/project6.PNG',
       alt: 'Bookstore',
@@ -349,7 +349,7 @@ function closeNav() {
 
 closeNav();
 
-const mybutton = document.getElementById("myBtn");
+const mybutton = document.getElementById('myBtn');
 
 const scrollFunction = () => {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -359,4 +359,4 @@ const scrollFunction = () => {
   }
 };
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() { scrollFunction(); };
