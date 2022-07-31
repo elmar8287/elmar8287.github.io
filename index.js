@@ -1,3 +1,4 @@
+/* eslint-disable */
 const projects = [
   {
     id: 0,
@@ -359,4 +360,4 @@ const scrollFunction = () => {
   }
 };
 
-window.onscroll = function() { scrollFunction(); };
+window.onscroll = function () { scrollFunction(); };

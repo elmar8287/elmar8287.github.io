@@ -624,7 +624,7 @@ form:invalid > #submit {
   #union {
     display: none;
   }
-  
+
   .header {
     padding: 25px 142px;
     justify-content: space-between;
