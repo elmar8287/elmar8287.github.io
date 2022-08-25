@@ -7,7 +7,7 @@ const projects = [
     position: 'Front End Dev',
     year: 2022,
     description:
-      'This is an meal recipe app, where you can get meals reciept considering of the Area, Category and main ingrediente.',
+      'This is an meal recipe app, where you can get meals recipe considering of the Area, Category and main ingrediente.',
     technologies: ['react', 'api', 'netlify'],
     image: {
       link: './img/project12.png',
