@@ -1,7 +1,23 @@
 /* eslint-disable */
 const projects = [
-  {
+    {
     id: 0,
+    name: 'Meally - your recipe journal',
+    companyName: 'Meally',
+    position: 'Front End Dev',
+    year: 2022,
+    description:
+      'This is an meal recipe app, where you can get meals reciept considering of the Area, Category and main ingrediente.',
+    technologies: ['react', 'api', 'netlify'],
+    image: {
+      link: './img/project12.png',
+      alt: 'Meally - your recipe journal',
+    },
+    liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
+    sourceCode: 'https://github.com/elmar8287/meally',
+  },
+  {
+    id: 1,
     name: 'MLH Prep React Weather APP',
     companyName: 'MLH - Major League Hacking',
     position: 'Front End Dev',
@@ -17,7 +33,7 @@ const projects = [
     sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
   },
   {
-    id: 1,
+    id: 2,
     name: 'MLH Prep Portfolio Web-page',
     companyName: 'MLH - Major League Hacking',
     position: 'Front End Dev',
@@ -33,7 +49,7 @@ const projects = [
     sourceCode: 'https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Sprinters sales inventory web-page',
     companyName: 'Dreamcar Auto Sales',
     position: 'Front End Dev',
@@ -49,7 +65,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
   },
   {
-    id: 3,
+    id: 4,
     name: 'Digitalization in Medicine',
     companyName: 'AIMedicine',
     position: 'Front End Dev',
@@ -65,7 +81,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/capstone',
   },
   {
-    id: 4,
+    id: 5,
     name: 'TODO list in React',
     companyName: 'Company X',
     position: 'Front End Dev',
@@ -81,7 +97,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/react-tuto',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Awesome Books',
     companyName: 'Company Y',
     position: 'Front End Dev',
@@ -97,7 +113,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/awesome-books',
   },
   {
-    id: 6,
+    id: 7,
     name: 'JS API project - Meals DB',
     companyName: 'Company Z',
     position: 'Front End Dev',
@@ -113,7 +129,7 @@ const projects = [
     sourceCode: 'https://github.com/aliabbani/Lemonade-api',
   },
   {
-    id: 7,
+    id: 8,
     name: 'Space Travelers Hub',
     companyName: 'SpaceX',
     position: 'Front End Dev',
@@ -129,7 +145,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/space-travelers',
   },
   {
-    id: 8,
+    id: 9,
     name: 'Leaderboard API',
     companyName: 'Company B',
     position: 'Front End Dev',
@@ -145,7 +161,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/leaderboard',
   },
   {
-    id: 9,
+    id: 10,
     name: 'Math Magicians',
     companyName: 'Company C',
     position: 'Full stack',
@@ -161,7 +177,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/react-math',
   },
   {
-    id: 10,
+    id: 11,
     name: 'Bookstore',
     companyName: 'Company D',
     position: 'Full stack',
@@ -177,7 +193,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/Bookstore',
   },
   {
-    id: 11,
+    id: 12,
     name: 'Covid-19 Metrics',
     companyName: 'Covid-19',
     position: 'Full stack',
