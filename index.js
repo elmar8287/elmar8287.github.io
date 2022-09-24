@@ -17,7 +17,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/meally',
   },
   {
-    id: 1,
+    id: 3,
     name: 'MLH Prep React Weather APP',
     companyName: 'MLH - Major League Hacking',
     position: 'Front End Dev',
@@ -49,7 +49,7 @@ const projects = [
     sourceCode: 'https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3',
   },
   {
-    id: 3,
+    id: 1,
     name: 'Sprinters sales inventory web-page',
     companyName: 'Dreamcar Auto Sales',
     position: 'Front End Dev',
