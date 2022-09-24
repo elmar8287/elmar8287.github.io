@@ -16,21 +16,21 @@ const projects = [
     liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
     sourceCode: 'https://github.com/elmar8287/meally',
   },
-  {
-    id: 3,
-    name: 'MLH Prep React Weather APP',
-    companyName: 'MLH - Major League Hacking',
+    {
+    id: 1,
+    name: 'Sprinters sales inventory web-page',
+    companyName: 'Dreamcar Auto Sales',
     position: 'Front End Dev',
     year: 2022,
     description:
-      'This is a React Application, which fetches data from Open Weather API & Open AI API then displays it on UI.The displayed data is related to the weather conditions, activities available, sunrise-sunset times, suggestions, AQI & daily forecasts of the selected city (or coordinates)',
-    technologies: ['react', 'docker', 'api', 'netlify'],
+      'This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.',
+    technologies: ['react', 'redux', 'firebase', 'netlify'],
     image: {
-      link: './img/project11.png',
-      alt: 'MLH Prep React Weather App',
+      link: './img/pproject9.jpg',
+      alt: 'Sprinters sales inventory web-page',
     },
-    liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
-    sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
+    liveSource: 'https://dreamcarsautosales.com/',
+    sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
   },
   {
     id: 2,
@@ -48,22 +48,23 @@ const projects = [
     liveSource: 'https://prep-22-jul-prep-3-portfolio.netlify.app/',
     sourceCode: 'https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3',
   },
-  {
-    id: 1,
-    name: 'Sprinters sales inventory web-page',
-    companyName: 'Dreamcar Auto Sales',
+    {
+    id: 3,
+    name: 'MLH Prep React Weather APP',
+    companyName: 'MLH - Major League Hacking',
     position: 'Front End Dev',
     year: 2022,
     description:
-      'This is an inventory displaying website for USA custormer, which is a diller for Mercedes Sprinters and other VANs.',
-    technologies: ['react', 'redux', 'firebase', 'netlify'],
+      'This is a React Application, which fetches data from Open Weather API & Open AI API then displays it on UI.The displayed data is related to the weather conditions, activities available, sunrise-sunset times, suggestions, AQI & daily forecasts of the selected city (or coordinates)',
+    technologies: ['react', 'docker', 'api', 'netlify'],
     image: {
-      link: './img/pproject9.jpg',
-      alt: 'Sprinters sales inventory web-page',
+      link: './img/project11.png',
+      alt: 'MLH Prep React Weather App',
     },
-    liveSource: 'https://dreamcarsautosales.com/',
-    sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
+    liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
+    sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
   },
+
   {
     id: 4,
     name: 'Digitalization in Medicine',
