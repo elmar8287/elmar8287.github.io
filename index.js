@@ -1,7 +1,39 @@
 /* eslint-disable */
 const projects = [
+  {
+    id: 0,
+    name: 'Prodex - food supplements',
+    companyName: 'Prodex GM',
+    position: 'Front-end Dev',
+    year: 2023,
+    description:
+      'Prodex UG is your partner ready to assist and support in manufacturing of high-quality food supplements on a contractual basis. With our selected partners and manufacturers, we are experts in inquiries and orders of food supplements of different types.',
+    technologies: ['react', 'tailwind', 'netlify', 'mailjs'],
+    image: {
+      link: './img/project_prodex.png',
+      alt: 'food_supplements',
+    },
+    liveSource: 'https://prodex-health.de/',
+    sourceCode: 'https://prodex-health.de/',
+  },
+  {
+    id: 1,
+    name: 'Caspi Limo - Transportation service in Houston',
+    companyName: 'Caspi Limo LLC',
+    position: 'Front-end Dev',
+    year: 2023,
+    description:
+      'Caspi Limo Service is a new Houston’s transportation service that will reliably deliver you to your destination in style and on time. Our goal is to be one of the industry leader services in Houston and will build up the strong reputation by offering some of the best customer service in the state area and beyond. Our specialty is on-time transportation throughout Houston, but we’re happy to drive you to all surrounding cities.',
+    technologies: ['stripe-payment','react', 'tailwind', 'netlify', 'mailjs'],
+    image: {
+      link: './img/project_caspilimo.png',
+      alt: 'caspilimo',
+    },
+    liveSource: 'https://caspilimo.com/',
+    sourceCode: 'https://caspilimo.com/',
+  },
     {
-      id: 0,
+      id: 2,
       name: 'Inliner - The Queue System',
       companyName: 'Car rent company',
       position: 'Full-stack Dev',
@@ -17,7 +49,7 @@ const projects = [
       sourceCode: 'https://github.com/elmar8287/react-firebase-auth',
     },
     {
-    id: 1,
+    id: 3,
     name: 'Meally - your recipe journal',
     companyName: 'Meally',
     position: 'Front End Dev',
@@ -33,7 +65,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/meally',
   },
     {
-    id: 2,
+    id: 4,
     name: 'Sprinters sales inventory web page',
     companyName: 'Dreamcar Auto Sales',
     position: 'Front End Dev',
@@ -42,7 +74,7 @@ const projects = [
       'This is an inventory displaying website for USA customer, which is a Diller for Mercedes Sprinters and other VANs.',
     technologies: ['react', 'redux', 'firebase', 'netlify'],
     image: {
-      link: './img/pproject9.jpg',
+      link: './img/pproject9.png',
       alt: 'Sprinters sales inventory web page',
     },
     liveSource: 'https://dreamcarsautosales.com/',
@@ -50,7 +82,7 @@ const projects = [
     }
    ,
   {
-    id: 3,
+    id: 5,
     name: 'Covid-19 Metrics',
     companyName: 'Covid-19',
     position: 'Full stack',
@@ -66,7 +98,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/metrics',
   },
     {
-    id: 4,
+    id: 6,
     name: 'MLH Prep React Weather APP',
     companyName: 'MLH - Major League Hacking',
     position: 'Front End Dev',
@@ -83,7 +115,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 7,
     name: 'Digitalization in Medicine',
     companyName: 'AIMedicine',
     position: 'Front End Dev',
@@ -97,135 +129,136 @@ const projects = [
     },
     liveSource: 'https://elmar8287.github.io/capstone/',
     sourceCode: 'https://github.com/elmar8287/capstone',
-  },
-  {
-    id: 6,
-    name: 'TODO list in React',
-    companyName: 'Company X',
-    position: 'Front End Dev',
-    year: 2021,
-    description:
-      'This is a SPA todo-list, helps to organize tasks. You can easily add, delete and edit todos. Also, there is the possibility to mark tasks as completed. Local storage will keep your task on the list after refreshing and either close/open the browser.',
-    technologies: ['react', 'css'],
-    image: {
-      link: './img/project4.png',
-      alt: 'TODO list',
-    },
-    liveSource: 'https://elmar8287.github.io/react-tuto/',
-    sourceCode: 'https://github.com/elmar8287/react-tuto',
-  },
-  {
-    id: 7,
-    name: 'Awesome Books',
-    companyName: 'Company Y',
-    position: 'Front End Dev',
-    year: 2021,
-    description:
-      'Nice designed project with Bootstrap. Used single-page application. This is a project that displays a list of books and allows you to add and remove books from that list. Each book is related to the author. You can fix the number of books, which will be displayed. In this template, you can see the max number of books per page 6.',
-    technologies: ['html', 'luxon', 'css', 'bootstrap', 'javascript'],
-    image: {
-      link: './img/project1.png',
-      alt: 'Awesome Books screenshot',
-    },
-    liveSource: 'https://elmar8287.github.io/awesome-books/',
-    sourceCode: 'https://github.com/elmar8287/awesome-books',
-  },
-  {
-    id: 8,
-    name: 'JS API project - Meals DB',
-    companyName: 'Company Z',
-    position: 'Front End Dev',
-    year: 2021,
-    description:
-      'Meal API allows us to get a list of items with a unique item id (or generate the unique id), and for a given item, get detailed information about it. Also used other API, where saved likes and comments for each item.',
-    technologies: ['html', 'css', 'bootstrap', 'javascript'],
-    image: {
-      link: './img/project3.png',
-      alt: 'JS API project',
-    },
-    liveSource: 'https://aliabbani.github.io/Lemonade-api/dist/',
-    sourceCode: 'https://github.com/aliabbani/Lemonade-api',
-  },
-  {
-    id: 9,
-    name: 'Space Travelers Hub',
-    companyName: 'SpaceX',
-    position: 'Front End Dev',
-    year: 2021,
-    description:
-      'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
-    technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
-    image: {
-      link: './img/project7.PNG',
-      alt: 'Space Travelers Hub',
-    },
-    liveSource: 'https://space-travelers.netlify.app/',
-    sourceCode: 'https://github.com/elmar8287/space-travelers',
-  },
-  {
-    id: 10,
-    name: 'Leaderboard API',
-    companyName: 'Company B',
-    position: 'Front End Dev',
-    year: 2021,
-    description:
-      'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
-    technologies: ['html', 'css', 'bootstrap', 'javascript'],
-    image: {
-      link: './img/project2.png',
-      alt: 'TodoList',
-    },
-    liveSource: 'https://elmar8287.github.io/leaderboard/',
-    sourceCode: 'https://github.com/elmar8287/leaderboard',
-  },
-  {
-    id: 11,
-    name: 'Math Magicians',
-    companyName: 'Company C',
-    position: 'Full stack',
-    year: 2021,
-    description:
-      'It is a Single Page App (SPA) built in React. This project allows users to make simple calculations and read a random math-related quote.',
-    technologies: ['css', 'react', 'javascript', 'heroku', 'netlify'],
-    image: {
-      link: './img/project5.PNG',
-      alt: 'Math Magicians',
-    },
-    liveSource: 'https://elmar8287.github.io/react-math/',
-    sourceCode: 'https://github.com/elmar8287/react-math',
-  },
-  {
-    id: 12,
-    name: 'Bookstore',
-    companyName: 'Company D',
-    position: 'Full stack',
-    year: 2021,
-    description:
-      'This is a React application related to add, delete and display favorite books. Here you can see progress in reading for each book.',
-    technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
-    image: {
-      link: './img/project6.PNG',
-      alt: 'Bookstore',
-    },
-    liveSource: 'https://bookstore-abdulkae.netlify.app/',
-    sourceCode: 'https://github.com/elmar8287/Bookstore',
-  },
-  {
-    id: 13,
-    name: 'MLH Prep Portfolio Web-page',
-    companyName: 'MLH - Major League Hacking',
-    position: 'Front End Dev',
-    year: 2022,
-    description:
-      'The project is a Pod portfolio web-page, while being a part of MLH Prep July 2022 three weeks program.',
-    technologies: ['jekyll', 'js', 'html', 'css', 'netlify'],
-    image: {
-      link: './img/project10.png',
-      alt: 'MLH Pod Portfolio Web-page',
-    },
-    liveSource: 'https://prep-22-jul-prep-3-portfolio.netlify.app/',
-    sourceCode: 'https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3',
-  },
+   }
+  //,
+  // {
+  //   id: 6,
+  //   name: 'TODO list in React',
+  //   companyName: 'Company X',
+  //   position: 'Front End Dev',
+  //   year: 2021,
+  //   description:
+  //     'This is a SPA todo-list, helps to organize tasks. You can easily add, delete and edit todos. Also, there is the possibility to mark tasks as completed. Local storage will keep your task on the list after refreshing and either close/open the browser.',
+  //   technologies: ['react', 'css'],
+  //   image: {
+  //     link: './img/project4.png',
+  //     alt: 'TODO list',
+  //   },
+  //   liveSource: 'https://elmar8287.github.io/react-tuto/',
+  //   sourceCode: 'https://github.com/elmar8287/react-tuto',
+  // },
+  // {
+  //   id: 7,
+  //   name: 'Awesome Books',
+  //   companyName: 'Company Y',
+  //   position: 'Front End Dev',
+  //   year: 2021,
+  //   description:
+  //     'Nice designed project with Bootstrap. Used single-page application. This is a project that displays a list of books and allows you to add and remove books from that list. Each book is related to the author. You can fix the number of books, which will be displayed. In this template, you can see the max number of books per page 6.',
+  //   technologies: ['html', 'luxon', 'css', 'bootstrap', 'javascript'],
+  //   image: {
+  //     link: './img/project1.png',
+  //     alt: 'Awesome Books screenshot',
+  //   },
+  //   liveSource: 'https://elmar8287.github.io/awesome-books/',
+  //   sourceCode: 'https://github.com/elmar8287/awesome-books',
+  // },
+  // {
+  //   id: 8,
+  //   name: 'JS API project - Meals DB',
+  //   companyName: 'Company Z',
+  //   position: 'Front End Dev',
+  //   year: 2021,
+  //   description:
+  //     'Meal API allows us to get a list of items with a unique item id (or generate the unique id), and for a given item, get detailed information about it. Also used other API, where saved likes and comments for each item.',
+  //   technologies: ['html', 'css', 'bootstrap', 'javascript'],
+  //   image: {
+  //     link: './img/project3.png',
+  //     alt: 'JS API project',
+  //   },
+  //   liveSource: 'https://aliabbani.github.io/Lemonade-api/dist/',
+  //   sourceCode: 'https://github.com/aliabbani/Lemonade-api',
+  // },
+  // {
+  //   id: 9,
+  //   name: 'Space Travelers Hub',
+  //   companyName: 'SpaceX',
+  //   position: 'Front End Dev',
+  //   year: 2021,
+  //   description:
+  //     'A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+  //   technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
+  //   image: {
+  //     link: './img/project7.PNG',
+  //     alt: 'Space Travelers Hub',
+  //   },
+  //   liveSource: 'https://space-travelers.netlify.app/',
+  //   sourceCode: 'https://github.com/elmar8287/space-travelers',
+  // },
+  // {
+  //   id: 10,
+  //   name: 'Leaderboard API',
+  //   companyName: 'Company B',
+  //   position: 'Front End Dev',
+  //   year: 2021,
+  //   description:
+  //     'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
+  //   technologies: ['html', 'css', 'bootstrap', 'javascript'],
+  //   image: {
+  //     link: './img/project2.png',
+  //     alt: 'TodoList',
+  //   },
+  //   liveSource: 'https://elmar8287.github.io/leaderboard/',
+  //   sourceCode: 'https://github.com/elmar8287/leaderboard',
+  // },
+  // {
+  //   id: 11,
+  //   name: 'Math Magicians',
+  //   companyName: 'Company C',
+  //   position: 'Full stack',
+  //   year: 2021,
+  //   description:
+  //     'It is a Single Page App (SPA) built in React. This project allows users to make simple calculations and read a random math-related quote.',
+  //   technologies: ['css', 'react', 'javascript', 'heroku', 'netlify'],
+  //   image: {
+  //     link: './img/project5.PNG',
+  //     alt: 'Math Magicians',
+  //   },
+  //   liveSource: 'https://elmar8287.github.io/react-math/',
+  //   sourceCode: 'https://github.com/elmar8287/react-math',
+  // },
+  // {
+  //   id: 12,
+  //   name: 'Bookstore',
+  //   companyName: 'Company D',
+  //   position: 'Full stack',
+  //   year: 2021,
+  //   description:
+  //     'This is a React application related to add, delete and display favorite books. Here you can see progress in reading for each book.',
+  //   technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
+  //   image: {
+  //     link: './img/project6.PNG',
+  //     alt: 'Bookstore',
+  //   },
+  //   liveSource: 'https://bookstore-abdulkae.netlify.app/',
+  //   sourceCode: 'https://github.com/elmar8287/Bookstore',
+  // },
+  // {
+  //   id: 13,
+  //   name: 'MLH Prep Portfolio Web-page',
+  //   companyName: 'MLH - Major League Hacking',
+  //   position: 'Front End Dev',
+  //   year: 2022,
+  //   description:
+  //     'The project is a Pod portfolio web-page, while being a part of MLH Prep July 2022 three weeks program.',
+  //   technologies: ['jekyll', 'js', 'html', 'css', 'netlify'],
+  //   image: {
+  //     link: './img/project10.png',
+  //     alt: 'MLH Pod Portfolio Web-page',
+  //   },
+  //   liveSource: 'https://prep-22-jul-prep-3-portfolio.netlify.app/',
+  //   sourceCode: 'https://github.com/MLH-Fellowship/prep-portfolio-22.JUL.PREP.3',
+  // },
 ];
 
 const modalDetails = document.createElement('div');
