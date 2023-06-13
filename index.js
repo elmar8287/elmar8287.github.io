@@ -3,7 +3,7 @@ const projects = [
   {
     id: 0,
     name: 'Prodex - food supplements',
-    companyName: 'Prodex GM',
+    companyName: 'Prodex UG',
     position: 'Front-end Dev',
     year: 2023,
     description:
@@ -50,22 +50,6 @@ const projects = [
     },
     {
     id: 3,
-    name: 'Meally - your recipe journal',
-    companyName: 'Meally',
-    position: 'Front End Dev',
-    year: 2022,
-    description:
-      'This is an meal recipe app, where you can get meals recipe considering of the Area, Category and main ingrediente.',
-    technologies: ['react', 'api', 'netlify'],
-    image: {
-      link: './img/project12.png',
-      alt: 'Meally - your recipe journal',
-    },
-    liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
-    sourceCode: 'https://github.com/elmar8287/meally',
-  },
-    {
-    id: 4,
     name: 'Sprinters sales inventory web page',
     companyName: 'Dreamcar Auto Sales',
     position: 'Front End Dev',
@@ -81,6 +65,22 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
     }
    ,
+   {
+    id: 4,
+    name: 'Meally - your recipe journal',
+    companyName: 'Meally',
+    position: 'Front End Dev',
+    year: 2022,
+    description:
+      'This is an meal recipe app, where you can get meals recipe considering of the Area, Category and main ingrediente.',
+    technologies: ['react', 'api', 'netlify'],
+    image: {
+      link: './img/project12.png',
+      alt: 'Meally - your recipe journal',
+    },
+    liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
+    sourceCode: 'https://github.com/elmar8287/meally',
+  },
   {
     id: 5,
     name: 'Covid-19 Metrics',
