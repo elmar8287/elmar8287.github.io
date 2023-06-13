@@ -417,14 +417,24 @@ function closeNav() {
 
 closeNav();
 
-const mybutton = document.getElementById('myBtn');
+// const mybutton = document.getElementById('myBtn');
 
 const scrollFunction = () => {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     mybutton.style.display = 'block';
   } else {
     mybutton.style.display = 'none';
   }
 };
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // You can also use 'auto' or 'instant' for the scroll behavior
+  });
+}
+
+const mybutton = document.getElementById('myBtn');
+mybutton.addEventListener('click', scrollToTop);
 
 window.onscroll = function () { scrollFunction(); };
