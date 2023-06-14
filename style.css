@@ -39,6 +39,7 @@ a {
   line-height: 20px;
   cursor: pointer;
   animation: rotate 0.2s;
+  width: 100px;
 }
 
 @keyframes rotate {

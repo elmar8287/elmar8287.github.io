@@ -3,7 +3,7 @@
 * Added mobile menu using JS
 * Added validation into contact form with JS
 * Added saving data in local storage for contact form with JS
-* Added popup window for each card, using data dinamicaly, with JS
+* Added popup window for each card, using data dynamically, with JS
 
 
 ## Live version
@@ -15,7 +15,7 @@ You can visit live version via [link](https://elmarich.website/)
 
 - HTML/CSS/JS
 - Figma
-- GH pages
+- Netlify
 
 ## Author
 
