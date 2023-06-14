@@ -81,38 +81,38 @@ const projects = [
     liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
     sourceCode: 'https://github.com/elmar8287/meally',
   },
-  {
-    id: 5,
-    name: 'Covid-19 Metrics',
-    companyName: 'Covid-19',
-    position: 'Full stack',
-    year: 2021,
-    description:
-    'The project is about building a mobile web application to check a list of Worldwide COVID-19 metrics (numeric values). By clicking on the country name, there is a possibility to view more detailed information.',
-    technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
-    image: {
-      link: './img/project8.PNG',
-      alt: 'COVID-19 Metrics',
-    },
-    liveSource: 'https://elmar-project-covid19.netlify.app/',
-    sourceCode: 'https://github.com/elmar8287/metrics',
-  },
-    {
-    id: 6,
-    name: 'MLH Prep React Weather APP',
-    companyName: 'MLH - Major League Hacking',
-    position: 'Front End Dev',
-    year: 2022,
-    description:
-      'This is a React Application, which fetches data from Open Weather API & Open AI API then displays it on UI.The displayed data is related to the weather conditions, activities available, sunrise-sunset times, suggestions, AQI & daily forecasts of the selected city (or coordinates)',
-    technologies: ['react', 'docker', 'api', 'netlify'],
-    image: {
-      link: './img/project11.png',
-      alt: 'MLH Prep React Weather App',
-    },
-    liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
-    sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
-  },
+  // {
+  //   id: 5,
+  //   name: 'Covid-19 Metrics',
+  //   companyName: 'Covid-19',
+  //   position: 'Full stack',
+  //   year: 2021,
+  //   description:
+  //   'The project is about building a mobile web application to check a list of Worldwide COVID-19 metrics (numeric values). By clicking on the country name, there is a possibility to view more detailed information.',
+  //   technologies: ['css', 'react', 'redux', 'javascript', 'netlify'],
+  //   image: {
+  //     link: './img/project8.PNG',
+  //     alt: 'COVID-19 Metrics',
+  //   },
+  //   liveSource: 'https://elmar-project-covid19.netlify.app/',
+  //   sourceCode: 'https://github.com/elmar8287/metrics',
+  // },
+  //   {
+  //   id: 6,
+  //   name: 'MLH Prep React Weather APP',
+  //   companyName: 'MLH - Major League Hacking',
+  //   position: 'Front End Dev',
+  //   year: 2022,
+  //   description:
+  //     'This is a React Application, which fetches data from Open Weather API & Open AI API then displays it on UI.The displayed data is related to the weather conditions, activities available, sunrise-sunset times, suggestions, AQI & daily forecasts of the selected city (or coordinates)',
+  //   technologies: ['react', 'docker', 'api', 'netlify'],
+  //   image: {
+  //     link: './img/project11.png',
+  //     alt: 'MLH Prep React Weather App',
+  //   },
+  //   liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
+  //   sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
+  // },
 
   {
     id: 7,
