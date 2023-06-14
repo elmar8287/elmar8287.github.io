@@ -72,7 +72,7 @@ const projects = [
     position: 'Front End Dev',
     year: 2022,
     description:
-      'This is an meal recipe app, where you can get meals recipe considering of the Area, Category and main ingrediente.',
+      'This is an meal recipe app, where you can get meals recipe considering of the Area, Category and main ingredient. The project is on going. The data from the open API is fetching successfully and the meal detail popup working fine. The next idea is to build the section with the smart selection of recipes from API base on the ingredients selected by user',
     technologies: ['react', 'api', 'netlify'],
     image: {
       link: './img/project12.png',
