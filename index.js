@@ -45,7 +45,7 @@ const projects = [
         link: './img/project13.png',
         alt: 'queue system',
       },
-      liveSource: 'https://bright-blini-2c8284.netlify.app/',
+      liveSource: 'https://inliner-queue-system.netlify.app/',
       sourceCode: 'https://github.com/elmar8287/react-firebase-auth',
     },
     {
