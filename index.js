@@ -7,7 +7,7 @@ const projects = [
     position: 'Front-end Dev',
     year: 2024,
     description:
-      'This is the business web application with the website, where client can schedule an appointment for repair service and also register and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
+      'This is the business web application with the website, where the client can schedule an appointment for repair service and also register and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
     technologies: ['react', 'tailwind', 'netlify', 'mailjs'],
     image: {
       link: './img/appliance.png',
@@ -39,7 +39,7 @@ const projects = [
       position: 'Full-stack Dev',
       year: 2023,
       description:
-        'This project was built for an online ticket system for companies that gets a lot of clients each day. The system makes the possibility to select the date and time for the appointment. It is strongly considered already booked date and time, so the company could be confident about careful queue assignment.',
+        'This project was built for an online ticket system for companies that get a lot of clients each day. The system makes the possibility to select the date and time for the appointment. It is strongly considered already booked date and time, so the company could be confident about careful queue assignment.',
       technologies: ['react', 'api', 'netlify', 'firebase'],
       image: {
         link: './img/project13.png',
@@ -55,13 +55,13 @@ const projects = [
     position: 'Front End Dev',
     year: 2022,
     description:
-      'This is an inventory displaying website for USA customer, which is a Diller for Mercedes Sprinters and other VANs.',
+      'This is an inventory displaying website for USA customers, which is a Diller for Mercedes Sprinters and other VANs.',
     technologies: ['react', 'redux', 'firebase', 'netlify'],
     image: {
       link: './img/pproject9.png',
       alt: 'Sprinters sales inventory web page',
     },
-    liveSource: 'https://dreamcarsautosales.com/',
+    liveSource: 'https://thriving-frangipane-1eb1c6.netlify.app/',
     sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
     }
    ,
