@@ -2,19 +2,19 @@
 const projects = [
   {
     id: 0,
-    name: 'Prodex - food supplements',
-    companyName: 'Prodex UG',
+    name: 'Appliance Repair Experts - business app',
+    companyName: 'Appliance Experts',
     position: 'Front-end Dev',
-    year: 2023,
+    year: 2024,
     description:
-      'Prodex UG is your partner ready to assist and support in manufacturing of high-quality food supplements on a contractual basis. With our selected partners and manufacturers, we are experts in inquiries and orders of food supplements of different types.',
+      'This is the business web application with the website, where client can schedule an appointment for repair service and also register and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
     technologies: ['react', 'tailwind', 'netlify', 'mailjs'],
     image: {
-      link: './img/project_prodex.png',
-      alt: 'food_supplements',
+      link: './img/appliance.png',
+      alt: 'appliance-repair',
     },
-    liveSource: 'https://prodex-health.de/',
-    sourceCode: 'https://prodex-health.de/',
+    liveSource: 'https://appliance-repair-expert.com/',
+    sourceCode: 'https://appliance-repair-expert.com/',
   },
   {
     id: 1,
