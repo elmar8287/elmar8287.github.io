@@ -129,7 +129,7 @@ const projects = [
     },
     liveSource: 'https://elmar8287.github.io/capstone/',
     sourceCode: 'https://github.com/elmar8287/capstone',
-   }
+   },
   //,
   // {
   //   id: 6,
