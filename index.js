@@ -3,18 +3,18 @@ const projects = [
   {
     id: 0,
     name: 'Appliance Repair Experts - business app',
-    companyName: 'Appliance Experts',
+    companyName: 'Alpha Appliance Repair',
     position: 'Front-end Dev',
     year: 2024,
     description:
-      'This is the business web application with the website, where the client can schedule an appointment for repair service and also register and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
-    technologies: ['react', 'tailwind', 'netlify', 'mailjs'],
+      'This is the business web application with the website, where the client can schedule an appointment for repair service, register, and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
+    technologies: ['react', 'firebase', 'tailwind', 'netlify', 'mailjs'],
     image: {
       link: './img/appliance.png',
       alt: 'appliance-repair',
     },
-    liveSource: 'https://appliance-repair-expert.com/',
-    sourceCode: 'https://appliance-repair-expert.com/',
+    liveSource: 'https://alpha-appliance-repair.com/',
+    sourceCode: 'https://alpha-appliance-repair.com/',
   },
   {
     id: 1,
@@ -97,22 +97,22 @@ const projects = [
   //   liveSource: 'https://elmar-project-covid19.netlify.app/',
   //   sourceCode: 'https://github.com/elmar8287/metrics',
   // },
-  //   {
-  //   id: 6,
-  //   name: 'MLH Prep React Weather APP',
-  //   companyName: 'MLH - Major League Hacking',
-  //   position: 'Front End Dev',
-  //   year: 2022,
-  //   description:
-  //     'This is a React Application, which fetches data from Open Weather API & Open AI API then displays it on UI.The displayed data is related to the weather conditions, activities available, sunrise-sunset times, suggestions, AQI & daily forecasts of the selected city (or coordinates)',
-  //   technologies: ['react', 'docker', 'api', 'netlify'],
-  //   image: {
-  //     link: './img/project11.png',
-  //     alt: 'MLH Prep React Weather App',
-  //   },
-  //   liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
-  //   sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
-  // },
+    {
+    id: 6,
+    name: 'MLH Prep React Weather APP',
+    companyName: 'MLH - Major League Hacking',
+    position: 'Front End Dev',
+    year: 2022,
+    description:
+      'This is a big remote international team project in MLH. This React Application fetches data from Open Weather API & Open AI API and then displays it on UI. The displayed data is related to the weather conditions, activities available, sunrise-sunset times, suggestions, AQI & daily forecasts of the selected city (or coordinates)',
+    technologies: ['react', 'docker', 'api', 'netlify'],
+    image: {
+      link: './img/project11.png',
+      alt: 'MLH Prep React Weather App',
+    },
+    liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
+    sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
+  },
 
   {
     id: 7,
