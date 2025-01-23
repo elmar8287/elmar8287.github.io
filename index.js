@@ -16,6 +16,22 @@ const projects = [
     liveSource: 'https://alpha-appliance-repair.com/',
     sourceCode: 'https://alpha-appliance-repair.com/',
   },
+   {
+      id: 1,
+      name: 'Inliner - The Queue System',
+      companyName: 'Car rent company',
+      position: 'Full-stack Dev',
+      year: 2023,
+      description:
+        'This project was built for an online ticket system for companies that get a lot of clients each day. The system makes the possibility to select the date and time for the appointment. It is strongly considered already booked date and time, so the company could be confident about careful queue assignment.',
+      technologies: ['react', 'api', 'netlify', 'firebase'],
+      image: {
+        link: './img/project13.png',
+        alt: 'queue system',
+      },
+      liveSource: 'https://inliner-queue-system.netlify.app/',
+      sourceCode: 'https://github.com/elmar8287/react-firebase-auth',
+    },
   {
     id: 2,
     name: 'Caspi Limo - Transportation service in Houston',
@@ -32,22 +48,7 @@ const projects = [
     liveSource: 'https://caspilimo.com/',
     sourceCode: 'https://caspilimo.com/',
   },
-    {
-      id: 1,
-      name: 'Inliner - The Queue System',
-      companyName: 'Car rent company',
-      position: 'Full-stack Dev',
-      year: 2023,
-      description:
-        'This project was built for an online ticket system for companies that get a lot of clients each day. The system makes the possibility to select the date and time for the appointment. It is strongly considered already booked date and time, so the company could be confident about careful queue assignment.',
-      technologies: ['react', 'api', 'netlify', 'firebase'],
-      image: {
-        link: './img/project13.png',
-        alt: 'queue system',
-      },
-      liveSource: 'https://inliner-queue-system.netlify.app/',
-      sourceCode: 'https://github.com/elmar8287/react-firebase-auth',
-    },
+   
     {
     id: 3,
     name: 'Sprinters sales inventory web page',
