@@ -7,7 +7,7 @@ const projects = [
     position: 'Front-end Dev',
     year: 2024,
     description:
-      'This is the business web application with the website, where the client can schedule an appointment for repair service, register, and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
+      'Real ongoing business in the USA - this is the web application with the website, where the client can schedule an appointment for repair service, register, and create tickets from their profile. The main goal is fast response and communication between clients and repair specialists.',
     technologies: ['react', 'firebase', 'tailwind', 'netlify', 'mailjs'],
     image: {
       link: './img/appliance.png',
@@ -121,7 +121,7 @@ const projects = [
     position: 'Front End Dev',
     year: 2021,
     description:
-      'This is a forum website with all necessary information about upcoming events, speakers, and sponsors. You can add program details and a registration form. In this template, you do not need to signup, but you can add this functionality in the future. Please, consider, that the whole content on this website is fictional.',
+      'This is one of my first capstone projects. The forum website has all the necessary information about upcoming events, speakers, and sponsors. You can add program details and a registration form. In this template, you do not need to sign up, but you can add this functionality in the future. Please, consider, that the whole content on this website is fictional.',
     technologies: ['html', 'css', 'javascript'],
     image: {
       link: './img/pproject0.jpg',
