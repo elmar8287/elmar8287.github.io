@@ -17,7 +17,7 @@ const projects = [
     sourceCode: 'https://alpha-appliance-repair.com/',
   },
   {
-    id: 1,
+    id: 2,
     name: 'Caspi Limo - Transportation service in Houston',
     companyName: 'Caspi Limo LLC',
     position: 'Front-end Dev',
@@ -33,7 +33,7 @@ const projects = [
     sourceCode: 'https://caspilimo.com/',
   },
     {
-      id: 2,
+      id: 1,
       name: 'Inliner - The Queue System',
       companyName: 'Car rent company',
       position: 'Full-stack Dev',
@@ -66,7 +66,7 @@ const projects = [
     }
    ,
    {
-    id: 4,
+    id: 5,
     name: 'Meally - your recipe journal',
     companyName: 'Meally',
     position: 'Front End Dev',
@@ -98,7 +98,7 @@ const projects = [
   //   sourceCode: 'https://github.com/elmar8287/metrics',
   // },
     {
-    id: 6,
+    id: 4,
     name: 'MLH Prep React Weather APP',
     companyName: 'MLH - Major League Hacking',
     position: 'Front End Dev',
@@ -115,7 +115,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 6,
     name: 'Digitalization in Medicine',
     companyName: 'AIMedicine',
     position: 'Front End Dev',
