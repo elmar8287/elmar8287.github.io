@@ -65,22 +65,7 @@ const projects = [
     sourceCode: 'https://github.com/elmar8287/dreamcar-auto-sales',
     }
    ,
-   {
-    id: 5,
-    name: 'Meally - your recipe journal',
-    companyName: 'Meally',
-    position: 'Front End Dev',
-    year: 2022,
-    description:
-      'This is an meal recipe app, where you can get meals recipe considering of the Area, Category and main ingredient. The project is on going. The data from the open API is fetching successfully and the meal detail popup working fine. The next idea is to build the section with the smart selection of recipes from API base on the ingredients selected by user',
-    technologies: ['react', 'api', 'netlify'],
-    image: {
-      link: './img/project12.png',
-      alt: 'Meally - your recipe journal',
-    },
-    liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
-    sourceCode: 'https://github.com/elmar8287/meally',
-  },
+   
   // {
   //   id: 5,
   //   name: 'Covid-19 Metrics',
@@ -113,7 +98,22 @@ const projects = [
     liveSource: 'https://prep-22-jul-prep-3-project.netlify.app/',
     sourceCode: 'https://github.com/MLH-Fellowship/prep-project-22.JUL.PREP.3',
   },
-
+{
+    id: 5,
+    name: 'Meally - your recipe journal',
+    companyName: 'Meally',
+    position: 'Front End Dev',
+    year: 2022,
+    description:
+      'This is a meal recipe app, where you can get meal recipes considering the Area, Category, and main ingredient. The project is ongoing. The data from the open API is fetching successfully and the meal detail popup working fine. The next idea is to build the section with the smart selection of recipes from API based on the ingredients selected by the user',
+    technologies: ['react', 'api', 'netlify'],
+    image: {
+      link: './img/project12.png',
+      alt: 'Meally - your recipe journal',
+    },
+    liveSource: 'https://chipper-biscochitos-f168fb.netlify.app/',
+    sourceCode: 'https://github.com/elmar8287/meally',
+  },
   {
     id: 6,
     name: 'Digitalization in Medicine',
