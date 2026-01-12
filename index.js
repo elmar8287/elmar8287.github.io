@@ -13,8 +13,8 @@ const projects = [
       link: './img/appliance.png',
       alt: 'appliance-repair',
     },
-    liveSource: 'https://alpha-appliance-repair.com/',
-    sourceCode: 'https://alpha-appliance-repair.com/',
+    liveSource: 'alpha-appliance.netlify.app',
+    sourceCode: 'alpha-appliance.netlify.app',
   },
    {
       id: 1,
@@ -23,7 +23,7 @@ const projects = [
       position: 'Full-stack Dev',
       year: 2023,
       description:
-        'This project was built for an online ticket system for companies that get a lot of clients each day. The system makes the possibility to select the date and time for the appointment. It is strongly considered already booked date and time, so the company could be confident about careful queue assignment.',
+        'This project was built for an online ticket system for companies that get a lot of clients each day. The system makes the possible to select the date and time for the appointment. It is strongly considered already booked date and time, so the company could be confident about careful queue assignment.',
       technologies: ['react', 'api', 'netlify', 'firebase'],
       image: {
         link: './img/project13.png',
@@ -39,8 +39,8 @@ const projects = [
     position: 'Front-end Dev',
     year: 2023,
     description:
-      'Caspi Limo Service is a new Houston’s transportation service that will reliably deliver you to your destination in style and on time. Our goal is to be one of the industry leader services in Houston and will build up the strong reputation by offering some of the best customer service in the state area and beyond. Our specialty is on-time transportation throughout Houston, but we’re happy to drive you to all surrounding cities.',
-    technologies: ['stripe-payment','react', 'tailwind', 'netlify', 'mailjs'],
+      'Caspi Limo Service is a new Houston transportation service that will reliably deliver you to your destination in style and on time. Our goal is to be one of the industry's leading services in Houston and will build up a strong reputation by offering some of the best customer service in the state area and beyond. Our specialty is on-time transportation throughout Houston, but we’re happy to drive you to all surrounding cities.',
+    Technologies: ['stripe-payment','react', 'tailwind', 'netlify', 'mailjs'],
     image: {
       link: './img/project_caspilimo.png',
       alt: 'caspilimo',
