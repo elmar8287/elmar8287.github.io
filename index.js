@@ -39,7 +39,7 @@ const projects = [
     position: 'Front-end Dev',
     year: 2023,
     description:
-      'Caspi Limo Service is a new Houston transportation service that will reliably deliver you to your destination in style and on time. Our goal is to be one of the industry's leading services in Houston and will build up a strong reputation by offering some of the best customer service in the state area and beyond. Our specialty is on-time transportation throughout Houston, but we’re happy to drive you to all surrounding cities.',
+      "Caspi Limo Service is a new Houston transportation service that will reliably deliver you to your destination in style and on time. Our goal is to be one of the industry's leading services in Houston and will build up a strong reputation by offering some of the best customer service in the state area and beyond. Our specialty is on-time transportation throughout Houston, but we’re happy to drive you to all surrounding cities.",
     Technologies: ['stripe-payment','react', 'tailwind', 'netlify', 'mailjs'],
     image: {
       link: './img/project_caspilimo.png',
